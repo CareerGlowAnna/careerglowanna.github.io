@@ -37,38 +37,37 @@
 }
 
 .toplinks{
-    padding: 15;
+    padding: 20;
 }
 
-.toplink{
-    background-color: rgb(140, 177, 201);
-    padding: 5px;
-    border-radius: 5px;
+.hamburger{
+    display: none;
 }
 
 a:link {
     color:rgb(234, 236, 238);
+    background-color: #78b2c0;
     text-decoration:none;
     font-size:120%;
     padding: 5px;
     transition-duration: 1s;
+    border-radius: 10px;
 }
 
 a:visited {
     color:rgb(234, 236, 238);
     font-size:120%;
     text-decoration: none;
+    border-radius: 5;
 
 }
 
 a:hover {
-    scale: 1.1;
+    color:rgb(236, 240, 243);
+    background-color: #65a0af;
     font-size:120%;
     text-decoration: none;
-    scale: 1.1;
-    background-color: rgb(234, 236, 238);
-    color:#0a0a0a;
-    transition-duration: 0s;
+    transition-duration: 0.5s;
     
 }
 
@@ -90,6 +89,13 @@ a:hover {
 }
 
 .contactdet {
+    text-align: right;
+    padding: 5px;
+    padding-left: 10vw;
+    font-size: small;
+    display: inline-block;
+}
+.topcontactdet{
     text-align: right;
     padding: 5px;
     padding-left: 10vw;
@@ -140,11 +146,20 @@ a:hover {
     }
 
     .toplinks{
-        visibility:collapse;
-
+        display: none;
+        gap: 20px;
+    }
+    .hamburger{
+        display: block;
+        text-align: right;
+        padding-right: 10vw;
     }
 
     .contactdet{
+        display: block;
+        font-size: x-large;
+    }
+    .topcontactdet{
         display: none;
     }
 }

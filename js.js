@@ -11,20 +11,20 @@ class specialheader extends HTMLElement {
         this.innerHTML = `
     <div class="specialheader" id="specialheader">
         <img class="headerimage" src="https://i.postimg.cc/FKyx0yJr/career-glow-trans-Warm-Grey.png" onclick="gotohome()"></img>
+        <div class="topcontactdet"><contact-det></contact-det></div>
+        
 
         <div id="hamburger" class="hamburger" onclick="openhamburger()">═</div>
     
         <div id="topliniks" class="toplinks">
             
-            <a href="Templateschecker.html">Template checker</a>
-            <a href="contact.html">Contact</a>
+            <a href="Templateschecker.html" >Template checker</a>
+            <a href="contact.html" >Contact</a>
+
             
+        </div>
     </div>
-    <div class="pagetitle">
-        <h2 class="bunchof">————————————————</h2>
-        <h2 class="pagetitlein" id="pagetitle"></h2>
-    </div>
-    </div>
+
 
         `
     }
@@ -84,7 +84,7 @@ function openhamburger() {
 
     var toplinks = document.getElementById("topliniks");
     var hamdisplay = toplinks.style.display;
-    if (hamdisplay === "none" ||hamdisplay === "") {toplinks.style.display = "block";} else {toplinks.style.display = "none";}
+    if (hamdisplay === "none" ||hamdisplay === "") {toplinks.style.display = "inline-grid";} else {toplinks.style.display = "none";}
 }
 
 function closemodal() {
