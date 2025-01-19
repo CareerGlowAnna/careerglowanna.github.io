@@ -1,0 +1,150 @@
+
+
+ body {
+    background-image: linear-gradient(to right,rgb(231, 229, 226),rgb(245, 241, 241),rgb(231, 229, 226));
+    /*background-color: #f0f0f0;*/
+    color:rgb(24, 24, 24);
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
+    margin-top: 0;
+    animation-name: fadein;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.bodyproper {
+    animation-name: zoomin;
+    animation-duration: 0.5s;
+    animation-delay: 0s;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+
+.specialheader{
+    display: block;
+    background-image: linear-gradient(to right,rgb(231, 229, 226),rgba(231, 229, 226, 0.466),rgb(214, 212, 208));
+    /*background-color: #cac7c3;*/
+    color:rgb(24, 24, 24);
+}
+
+.toplinks{
+    padding: 15;
+}
+
+.toplink{
+    background-color: rgb(140, 177, 201);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+a:link {
+    color:rgb(234, 236, 238);
+    text-decoration:none;
+    font-size:120%;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+a:visited {
+    color:rgb(234, 236, 238);
+    font-size:120%;
+    text-decoration: none;
+
+}
+
+a:hover {
+    scale: 1.1;
+    font-size:120%;
+    text-decoration: none;
+    scale: 1.1;
+    background-color: rgb(234, 236, 238);
+    color:#0a0a0a;
+    transition-duration: 0s;
+    
+}
+
+.specialfooter{
+    display: block;
+    background-color: #cac7c3;
+    color:rgb(24, 24, 24);
+    margin-bottom: 0;
+}
+
+
+.headerimage {
+    max-width: 500px;
+    display:inline-block;
+    width: 50%;
+    padding-top: 1.5%;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+.contactdet {
+    text-align: right;
+    padding: 5px;
+    padding-left: 10vw;
+    font-size: small;
+    display: inline-block;
+}
+
+
+/*ANIMATIONS*/
+
+@keyframes zoomin {
+    from {padding-top: 10%;
+    opacity: 0;
+    scale: 0.8;}
+
+    to {padding-top: 0%;
+    opacity: 1;
+    scale: (1, 1);}
+
+}
+
+@keyframes fadein {
+    from {
+    opacity: 0;}
+
+    to {
+    opacity: 1;}
+
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+
+
+    body{
+        font-size:xx-large;
+    }
+
+    .headerimage {
+        max-width: 90vw;
+        width:90vw;
+        display:inline;
+        width: 100%;
+        padding-top: 1.5%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+    }
+
+    .toplinks{
+        visibility:collapse;
+
+    }
+
+    .contactdet{
+        display: none;
+    }
+}
