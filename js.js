@@ -55,6 +55,33 @@ class contactdet extends HTMLElement {
 }
 customElements.define('contact-det', contactdet)
 
+
+class landing extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+        <br><br><br>
+        <h1 style="display:block;text-align: center;margin-left: 30px;margin-right: 30px;">Imagine yourself 5 years from now: Is it daunting to think you'd be where you are now? Why wait to do something that you feel is right?</h1>
+
+<br><br><br>
+
+<h2>Are you stuck, stagnated or confused about your next steps?</h2>
+<h2>Do you want to pursue a successful career that’s meaningful to you?</h2>
+<h2>Is self-doubt or imposter syndrome getting in your way?</h2>
+<h2>Do you want to develop lifelong skills essential to achieve your goals?</h2>
+<h2>Are you scared to start over?</h2>
+
+<br><br><br>
+
+<a href="bookintroductorycall.html" style="font-size: xx-large; padding: 20;margin: 10vw;">Book your FREE introductory call today</a>
+        `
+    }
+}
+customElements.define('elem-landing', landing)
+
+
+
+
+
 //set variables for modal
 var modal = document.getElementById("modal")
 var modalimg = document.getElementById("modal-content")
@@ -66,6 +93,8 @@ function fullimage(element) {
     modalimg.src = elementsrc;
     ScrollDisable();
 }
+
+
 //Close modal on click on window
 
 function ScrollDisable(){

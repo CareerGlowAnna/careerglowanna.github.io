@@ -50,7 +50,7 @@ a:link {
     text-decoration:none;
     font-size:120%;
     padding: 5px;
-    transition-duration: 1s;
+
     border-radius: 10px;
 }
 
@@ -67,7 +67,7 @@ a:hover {
     background-color: #65a0af;
     font-size:120%;
     text-decoration: none;
-    transition-duration: 0.5s;
+
     
 }
 
@@ -102,6 +102,7 @@ a:hover {
     font-size: small;
     display: inline-block;
 }
+
 
 
 /*ANIMATIONS*/
@@ -162,4 +163,6 @@ a:hover {
     .topcontactdet{
         display: none;
     }
+
+
 }
