@@ -10,11 +10,13 @@ class specialheader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
     <div class="specialheader" id="specialheader">
-        <img class="headerimage" src="https://i.postimg.cc/FKyx0yJr/career-glow-trans-Warm-Grey.png" onclick="gotohome()"></img>
+        <img class="headerimage" src="https://i.postimg.cc/FHPMK27Z/career-glow-trans-gradient-lighter.png" onclick="gotohome()"></img>
         <div class="topcontactdet"><contact-det></contact-det></div>
         
 
-        <div id="hamburger" class="hamburger" onclick="openhamburger()">═</div>
+        <div id="hamburger" class="hamburger" onclick="openhamburger()">
+                <img src="https://i.postimg.cc/hjFzHZbD/careerglow-hamburger.png"></img>
+        </div>
     
         <div id="topliniks" class="toplinks">
             
@@ -59,24 +61,62 @@ customElements.define('contact-det', contactdet)
 class landing extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
-        <br><br><br>
-        <h1 style="display:block;text-align: center;margin-left: 30px;margin-right: 30px;">Imagine yourself 5 years from now: Is it daunting to think you'd be where you are now? Why wait to do something that you feel is right?</h1>
+<br><br><br>
+        <h1 class="inspiquote">Imagine yourself 5 years from now: Is it daunting to think you'd be where you are now? Why wait to do something that you feel is right?</h1>
 
 <br><br><br>
 
-<h2>Are you stuck, stagnated or confused about your next steps?</h2>
-<h2>Do you want to pursue a successful career that’s meaningful to you?</h2>
-<h2>Is self-doubt or imposter syndrome getting in your way?</h2>
-<h2>Do you want to develop lifelong skills essential to achieve your goals?</h2>
-<h2>Are you scared to start over?</h2>
+
+<div style="text-align: center;">
+<ul>
+        <li>Are you stuck, stagnated or confused about your next steps?</li>
+        <li>Do you want to pursue a successful career that’s meaningful to you?</li>
+        <li>Is self-doubt or imposter syndrome getting in your way?</li>
+        <li>Do you want to develop lifelong skills essential to achieve your goals?</li>
+        <li>Are you scared to start over?</li>
+</ul>
+</div>
 
 <br><br><br>
 
-<a href="bookintroductorycall.html" style="font-size: xx-large; padding: 20;margin: 10vw;">Book your FREE introductory call today</a>
+<button class="button1" type="button" onclick="location.href = 'bookintroductorycall.html';">Book your FREE introductory call today</button>
         `
     }
 }
 customElements.define('elem-landing', landing)
+
+class about extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+<div style="background-image: linear-gradient(to right,#65a0af,#87afb9,#65a0af);border-radius: 50px;margin: 20px;max-width: 1200px;margin-left: auto;margin-right: auto;">
+
+        <h1 style="color: white;float: left;margin-left: 30px;">ABOUT</h1>
+
+        <div style="margin-top: 20px;">
+
+                 <img src="https://i.postimg.cc/vBJwh2j5/ania-placeholder.png" style="max-width: 65vw;max-height: 65vh;display: block;margin-left:auto;margin-right: auto;margin-top:30px;">
+
+                 <h1 style="width: auto;text-align: right;margin-left: 40vw; margin-right: 5vw;color: white;">Meet Anna, Professional Career & Development Coach at Career Glow.</h1>
+        </div>
+
+        <h1 style="color: white;max-width: 900px;margin-left: auto;margin-right: auto;">Coaching at Career Glow is a proven professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career.  We specialize in:</h1>
+
+        <div style="background-color: rgb(233, 232, 230);max-width: 900px;margin-left: auto;margin-right: auto;border-radius: 30px;margin-bottom: 20px;">
+                <ul style="width: 90%;">
+                        <li>
+                                Career transitions, Mid-Career and Early-Career development and planning. We appreciate that each client is unique and comes with a different set of skills, background and experiences. We strive to approach everyone individually to tailor for personal needs and long-lasting results.  
+                        </li>
+                </ul>
+        </div>
+        <h2 style="color: white;margin-top: 50px;max-width: 900px;margin-left: auto;margin-right: auto;">
+                ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she uses in her coaching practice, also taking from her background experience of coaching, operations, and development.
+        </h2>
+
+</div>
+        `
+            }
+}
+customElements.define('elem-about', about)
 
 
 

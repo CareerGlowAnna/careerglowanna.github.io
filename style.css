@@ -1,7 +1,7 @@
 
 
  body {
-    background-image: linear-gradient(to right,rgb(231, 229, 226),rgb(245, 241, 241),rgb(231, 229, 226));
+    background-image: linear-gradient(to right,rgb(231, 229, 226),rgb(255, 255, 255),rgb(231, 229, 226));
     /*background-color: #f0f0f0;*/
     color:rgb(24, 24, 24);
     text-align: center;
@@ -43,6 +43,8 @@
 .hamburger{
     display: none;
 }
+
+
 
 a:link {
     color:rgb(234, 236, 238);
@@ -103,6 +105,49 @@ a:hover {
     display: inline-block;
 }
 
+ul{
+    list-style-image: url('https://i.postimg.cc/0jndZCsk/careerglow-arrow-32.png');
+    font-size: xx-large;
+    display: inline-block;
+
+}
+li{
+   width: fit-content;
+    padding-bottom: 10px;
+}
+li:hover{
+    scale:1.05;
+}
+
+.button1 {
+    background-color: #65a0af;
+    border: none;
+    color: white;
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    width: fit-content;
+    border-radius: 20px;
+  }
+  .button1:hover {
+    scale: 1.1;
+  }
+
+.inspiquote{
+    width: 80vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.inspiquote:hover{
+    scale: 1.05;
+}
+
 
 
 /*ANIMATIONS*/
@@ -126,6 +171,8 @@ a:hover {
     opacity: 1;}
 
 }
+
+
 
 /*PHONE SCREEN OVERRIDES*/
 @media only screen and (max-width: 1000px) {
@@ -163,6 +210,14 @@ a:hover {
     .topcontactdet{
         display: none;
     }
-
+    li{
+        width:auto;
+     }
+     .button1{
+        font-size: 50px;
+     }
+     .inspiquote{
+        width: 95vw;
+     }
 
 }
