@@ -1,0 +1,94 @@
+.aboutgrid{
+    margin-top: 20px;
+    display: grid;  
+    grid-template:
+    [row1-start] 'title image' 1fr [row1-end]
+    [row2-start] 'text image' 2fr [row2-end]
+    / 2fr 1fr;
+    z-index: 0;
+}
+.aboutgridsloth1_1{
+    width: 85%;
+    text-align: right;
+    color: white;
+    justify-self: end;
+    display: block;
+    margin-top: auto;
+    margin-bottom: 0%;
+    color: white;
+    grid-area: title;
+    z-index: 1;
+}
+
+.aboutgridsloth2_1{
+    width: 60%;
+    text-align: right;
+    color: white;
+    display: block;
+    margin-top: 30;
+    margin-bottom:auto;
+    color: white;
+    text-align: left;
+    grid-area: text;
+    z-index: 1;
+    margin-left: 150px;
+}
+
+
+.aboutgridimage{
+    max-width: 65vw;
+    max-height: 65vh;
+    display: block;
+    margin-left:auto;
+    margin-right:0;
+    float: right;
+    grid-area: image;
+    transform-origin: center right;
+    scale: 150%;
+    z-index: 0;
+}
+
+.aboutabout{
+    color: rgba(255, 255, 255, 0.432);
+    text-align: left;
+    font-size: 1500%;
+    position: absolute;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+
+
+     .aboutgridsloth1_1{
+        width: 98%;
+        font-size: 150%;
+     }
+     .aboutgridsloth2_1{
+        width: 98%;
+        font-size: 100%;
+        margin-left: 5px;
+        text-align: left;
+     }
+     .aboutgrid{
+        margin-top: 20px;
+        display: grid;  
+        grid-template:
+        [row1-start] 'title image' 2fr [row1-end]
+        [row2-start] 'text image' 3fr [row2-end]
+        / 2fr 1fr;
+    }
+    .aboutgridimage{
+        scale: 120%;
+
+    }
+    .aboutabout{
+        font-size: 400%;
+        position: absolute;
+        margin-top: 0px;
+    }
+
+
+}
