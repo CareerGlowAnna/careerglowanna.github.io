@@ -100,7 +100,7 @@ class about extends HTMLElement {
                 <h1 class="aboutgridsloth1_1" >
                 Meet Anna, Professional Career & Development Coach at Career Glow.</h1>
 
-                <img src="https://i.postimg.cc/fRcHLq8H/IMG-2104-copy-1000.png" 
+                <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
                 class="aboutgridimage">
 
                 <h3 class="aboutgridsloth2_1" >
@@ -111,13 +111,14 @@ class about extends HTMLElement {
 
         <h1 style="color: white;max-width: 900px;margin-left: auto;margin-right: auto; z-index: 5; position: relative;">Coaching at Career Glow is a proven professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career.  We specialize in:</h1>
 
-        <div style="background-color: rgb(233, 232, 230);max-width: 900px;margin-left: auto;margin-right: auto;border-radius: 30px;margin-bottom: 20px;z-index: 1; position: relative;">
+        <div style="background-color: rgb(233, 232, 230);max-width: 900px;margin-left: auto;margin-right: auto;border-radius: 30px;margin-bottom: 20px;border-bottom: 20px;z-index: 1; position: relative;">
                 <ul style="width: 90%;">
                         <li>
                                 Career transitions, Mid-Career and Early-Career development and planning. We appreciate that each client is unique and comes with a different set of skills, background and experiences. We strive to approach everyone individually to tailor for personal needs and long-lasting results.  
                         </li>
                 </ul>
         </div>
+        <br>
 
 </div>
         `
@@ -126,6 +127,57 @@ class about extends HTMLElement {
 customElements.define('elem-about', about)
 
 
+class offer extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+<link href="style_offer.css" rel="stylesheet">
+
+<div class="offermastercontainer">
+
+        <h1 class="offerh1">WHAT WE OFFER:</h1>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Receive 1:1 Tailored Coaching Sessions</div>
+        </div>
+        
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Take part in Career Glow webinars</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Clarify, Set and Plan for your Goals</div>
+        </div>
+
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Identify your skills gap, build your confidence and tame your inner critic</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Improve your job search, interview, CV and networking skills</div>
+        </div>
+
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Achieve your goals </div>
+        </div>
+
+</div>
+                `
+            }
+}
+customElements.define('elem-offer', offer)
+        
 
 
 
