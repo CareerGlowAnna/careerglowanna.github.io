@@ -19,6 +19,10 @@ input[type=checkbox]:hover{
     transition: 0.3s;
 }
 
+input[type=tel]{
+    font-size: 110%;
+}
+
 .checkboxtext{
     color: white;
     text-align: center;
@@ -75,5 +79,9 @@ textarea:focus{
 
     input[type=date]{
        font-size: 200%;
+    }
+
+    input[type=tel]{
+        font-size: 150%;
     }
 }

@@ -15,13 +15,20 @@
 <div class="contactcontainer">
     <form action="https://formsubmit.co/careerglowcoachingwithanna@gmail.com" method="POST">
         <input  type="text" name="name" placeholder="Name" required>
+
         <input  type="email" name="email" placeholder="Email" required>
+
         <textarea  placeholder="Your Message" name="message" rows="10" required></textarea>
         <br>
+
         <input  type="checkbox" name="schedulecheckbox" value="Yes, I would like to schedule a free call">
         <label class="checkboxtext" for="schedulecheckbox" >Yes, I would like to schedule a free call</label>
-        <p style="color: white;">(if so, please select a preferred date)</p>
+        <p style="color: white;">(if so, please select a preferred date and your phone number)</p>
+
         <input type="date" id="call date" name="call date">
+
+        <input type="tel" id="phone" name="phone" placeholder="Tel: 087-123-1324" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" size="12" maxlength="17">
+
         <button class="button_white" type="submit">Send</button>
    </form>
 </div>
