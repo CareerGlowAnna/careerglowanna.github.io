@@ -5,19 +5,26 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Contact</title>
     <link href="style.css" rel="stylesheet">
+    <link href="style_contact.css" rel="stylesheet">
+    <link href="style_form.css" rel="stylesheet">
     <script defer src="js.js"></script>
     <special-header></special-header>
 </head>
 <body>
     
-    <h1>contact</h1>
-
+<div class="contactcontainer">
     <form action="https://formsubmit.co/careerglowcoachingwithanna@gmail.com" method="POST">
-        <input type="text" name="name" placeholder="Name" required>
-        <input type="email" name="email" placeholder="Email" required>
-        <textarea placeholder="Your Message" name="message" rows="10" required></textarea>
-        <button type="submit">Send</button>
+        <input  type="text" name="name" placeholder="Name" required>
+        <input  type="email" name="email" placeholder="Email" required>
+        <textarea  placeholder="Your Message" name="message" rows="10" required></textarea>
+        <br>
+        <input  type="checkbox" name="schedulecheckbox" value="Yes, I would like to schedule a free call">
+        <label class="checkboxtext" for="schedulecheckbox" >Yes, I would like to schedule a free call</label>
+        <p style="color: white;">(if so, please select a preferred date)</p>
+        <input type="date" id="call date" name="call date">
+        <button class="button_white" type="submit">Send</button>
    </form>
+</div>
 
 <special-footer></special-footer>
 </body>

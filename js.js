@@ -1,10 +1,5 @@
 
 
-function gettitle() {
-    let pagetitle= document.title
-    document.getElementById("pagetitle").innerText=pagetitle
-}
-
 
 class specialheader extends HTMLElement {
     connectedCallback() {

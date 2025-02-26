@@ -31,6 +31,46 @@
 }
 
 
+
+
+
+
+
+
+button{
+    width: 80%;
+    margin: 15px;
+    padding: 15px;
+    border: none;
+    border-radius: 15px;
+    transition: 1s;
+    font-size: 100%;
+}
+
+button:hover{
+    padding: 25px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.button_white{
+    background-color: white;
+}
+
+.button_blue{
+    background-color: var(--color_blue);
+}
+
+
+
+
+
+
+
+
+
+
+
 .specialheader{
     display: block;
     background-image: linear-gradient(to right,rgb(231, 229, 226),rgba(231, 229, 226, 0.466),rgb(214, 212, 208));
