@@ -18,6 +18,7 @@
     color: white;
     grid-area: title;
     z-index: 1;
+    font-family: var(--font_main);
 }
 
 .aboutgridsloth2_1{

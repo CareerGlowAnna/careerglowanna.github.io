@@ -1,0 +1,62 @@
+
+
+
+
+.servicescont_R , .servicescont_L {
+    width: 800px;
+    height: fit-content;
+    margin: 20px;
+    padding: 25px;
+    border-radius: 50px;
+    max-width: 95vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--color_blue);
+    color: white;
+
+    transition: 1s;
+
+
+}
+
+.servicescont_R:hover{
+    scale: 1.02;
+    transform: rotate(0.5deg);
+
+    transition: 0.3s;
+}
+
+.servicescont_L:hover{
+    scale: 1.02;
+    transform: rotate(-0.5deg);
+    transition: 0.3s;
+}
+
+
+
+.services_inner{
+    scale: 100% 100%;
+}
+
+.services_inner:hover{
+    scale: 100% 100%;
+}
+
+ul{
+    background-color: white;
+    color: var(--color_blue);
+    padding: 45px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 150%
+}
+
+.ul_services_R:hover{
+    transform: rotate(1deg);
+    transition: 0.3s;
+}
+
+.ul_services_L:hover{
+    transform: rotate(-1deg);
+    transition: 0.3s;
+}

@@ -74,7 +74,7 @@ class landing extends HTMLElement {
 
 <br><br><br>
 
-<button class="button1" type="button" onclick="location.href = 'bookintroductorycall.html';">Book your FREE introductory call today</button>
+<button class="button1" type="button" onclick="location.href = 'contact.html';">Book your FREE introductory call today</button>
         `
     }
 }
@@ -174,6 +174,79 @@ class offer extends HTMLElement {
 customElements.define('elem-offer', offer)
         
 
+
+class services extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+<link href="style_services.css" rel="stylesheet">
+
+<h1 style="color: var(--color_blue);">Our Services:</h1>
+
+<div class="servicescont_R">
+        <h2>One to One Individual Coaching Sessions (Live Online)</h2>
+        <div class="services_inner">
+        <p>Individually tailored coaching to accelerate your career journey.Career Glow specialises in Career Transitions,  Mid and Early career coaching.</p>
+        <h3>Standard Cost (1 hour session):		€110</h3>
+
+        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
+        </div>
+</div>
+
+<div class="servicescont_L">
+        <h2>The Ultimate Career Change Package (Live Online)</h2>
+        <p>A combination of one to one and group coaching to provide you with:</p>
+        <ul class="ul_services_R" >
+                <li>Individual approach</li>
+                <li>Affordability</li>
+                <li>Mutual learning</li>
+                <li>Increased Confidence</li>
+                <li>Accountability</li>
+                <li>Networking Opportunities</li>
+                <li>Proven tools & techniques essential for career changers</li>
+        </ul>
+        <h3>Cost (6 x 1 hour sessions): 		€500</h3>
+        <p> *Payment plans available</p>
+
+        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
+</div>
+
+<div class="servicescont_R">
+        <h2>From Stuck to Hired Package (Live Online)</h2>
+        <p>A combination of one to one and group coaching to provide you with:</p>
+        <ul class="ul_services_L" >
+                <li>Individual approach</li>
+                <li>Affordability</li>
+                <li>Mutual learning</li>
+                <li>Increased Confidence</li>
+                <li>Accountability</li>
+                <li>Networking Opportunities</li>
+                <li>Proven tools & techniques essential for job seekers.</li>
+        </ul>
+        <h3>Standard Cost (1 hour session):		€110</h3>
+
+        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
+</div>
+
+<div class="servicescont_L">
+        <h2>The Jobseeker’s Toolkit   (Pre-recorded Online)</h2>
+        <p>Pre-recorded, step-by-step strategies, tools and tips on: </p>
+        <ul class="ul_services_R" >
+                <li>Career choice</li>
+                <li>Self-marketing</li>
+                <li>CV & Cover Letter writing</li>
+                <li>Interviewing </li>
+                <li>Networking</li>
+        </ul>
+        <h3>Cost (Pre-recorded course):		€50</h3>
+        <p>→Time-limited extra service included: Professional CV Review upon completion and 20% off your first 1:1 coaching session</p>
+
+        <button class="button_white" type="button" onclick="location.href = 'contact_RequestJobSeekers.html';">Request your Jobseeker’s toolkit</button>
+</div>
+
+                `
+            }
+}
+customElements.define('elem-services', services)
 
 
 //set variables for modal

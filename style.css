@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root{
     --color_blue:#65a0af;
+    --font_main:'tinos';
 }
 
  body {
@@ -18,7 +21,7 @@
     display: grid;
     grid-template-rows: auto 1fr auto;
 
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: var(--font_main);
 
 }
 
@@ -38,7 +41,7 @@
 
 
 button{
-    width: 80%;
+    width: fit-content;
     margin: 15px;
     padding: 15px;
     border: none;
@@ -48,17 +51,21 @@ button{
 }
 
 button:hover{
-    padding: 25px;
-    margin: 5px;
+    scale: 1.1;
     transition: 0.3s;
 }
 
 .button_white{
     background-color: white;
+    color: var(--color_blue);
+    font-family: var(--font_main);
+    font-weight: 700;
 }
 
 .button_blue{
     background-color: var(--color_blue);
+    font-family: var(--font_main);
+    font-weight: 700;
 }
 
 
@@ -156,9 +163,11 @@ ul{
 li{
    width: fit-content;
     padding-bottom: 10px;
+    transition: 1s;
 }
 li:hover{
     scale:1.05;
+    transition: 0.3s;
 }
 
 .button1 {
