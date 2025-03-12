@@ -3,7 +3,7 @@
 
 
 .servicescont_R , .servicescont_L {
-    width: 800px;
+    width: 250px;
     height: fit-content;
     margin: 20px;
     padding: 25px;
@@ -20,15 +20,20 @@
 }
 
 .servicescont_R:hover{
-    scale: 1.02;
+    scale: 1.1;
     transform: rotate(0.5deg);
+    filter: drop-shadow(rgba(0, 0, 0, 0.5) 10px 10px 10px);
+    z-index: 2;
 
     transition: 0.3s;
 }
 
 .servicescont_L:hover{
-    scale: 1.02;
+    scale: 1.1;
     transform: rotate(-0.5deg);
+    filter: drop-shadow(rgba(0, 0, 0, 0.5) 10px 10px 10px);
+    z-index: 2;
+
     transition: 0.3s;
 }
 
@@ -42,13 +47,15 @@
     scale: 100% 100%;
 }
 
-ul{
+
+.ul_services_R, .ul_services_L{
     background-color: white;
     color: var(--color_blue);
-    padding: 45px;
-    border-radius: 50px;
+    padding: 10px;
+    border-radius: 30px;
     transition: 0.3s;
-    font-size: 150%
+    font-size: 100%;
+    list-style-image: none;
 }
 
 .ul_services_R:hover{
@@ -59,4 +66,28 @@ ul{
 .ul_services_L:hover{
     transform: rotate(-1deg);
     transition: 0.3s;
+}
+
+.grid_services{
+    display: inline-grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+    .grid_services{
+        grid-template-columns: auto;
+    }
+
+    .servicescont_R , .servicescont_L {
+        width: 85vw;
+    
+    }
+
+
 }

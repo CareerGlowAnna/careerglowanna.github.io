@@ -1,0 +1,137 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {  
+    width:80vw;
+  max-width: 1000px;
+  height: 200px;
+  position: relative;
+  margin: auto;
+  margin-top:auto;
+  background-color: var(--color_blue);
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.slideshow-container:hover {  
+    scale:1.1;
+    transition: 0.3s;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 120%;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  top:50%;
+  transform: translate(0%, -100%);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 5px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.prev {
+    left: 5px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+  }
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+
+
+/* Caption text */
+.text {
+  color: #ffffff;
+  font-size: 100%;
+  padding: 8px 12px;
+  position: relative;
+  top:auto;
+  bottom: auto;
+  width: 85%;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+    .text {
+        font-size: 120%;
+      }
+
+      .slideshow-container {  
+       width: auto;
+      max-width: 95vw;
+      height: 600px;
+
+    }
+
+    .prev, .next {
+
+        font-size: 150%;
+
+      }
+
+      .slideshow-container:hover {  
+        scale:1;
+        transition: 0.3s;
+    }
+
+
+}
+

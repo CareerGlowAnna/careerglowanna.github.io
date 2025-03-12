@@ -182,6 +182,8 @@ class services extends HTMLElement {
 
 <h1 style="color: var(--color_blue);">Our Services:</h1>
 
+<div class="grid_services">
+
 <div class="servicescont_R">
         <h2>One to One Individual Coaching Sessions (Live Online)</h2>
         <div class="services_inner">
@@ -214,7 +216,7 @@ class services extends HTMLElement {
         <h2>From Stuck to Hired Package (Live Online)</h2>
         <p>A combination of one to one and group coaching to provide you with:</p>
         <ul class="ul_services_L" >
-                <li>Individual approach</li>
+                <li class="li_services">Individual approach</li>
                 <li>Affordability</li>
                 <li>Mutual learning</li>
                 <li>Increased Confidence</li>
@@ -243,10 +245,66 @@ class services extends HTMLElement {
         <button class="button_white" type="button" onclick="location.href = 'contact_RequestJobSeekers.html';">Request your Jobseeker’s toolkit</button>
 </div>
 
+</div>
+
                 `
             }
 }
 customElements.define('elem-services', services)
+
+
+class testimonials extends HTMLElement {
+    connectedCallback() {
+        this.innerHTML = `
+<link href="style_testimonials.css" rel="stylesheet">
+<script defer src="js_testimonials.js"></script>
+<!-- Slideshow container -->
+
+        <h2 style="color: var(--color_blue);">Our Testimonials:</h2>
+
+<div class="slideshow-container">
+
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+
+          <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus magna, sollicitudin ac metus non, suscipit posuere odio. Integer laoreet odio id dui porttitor, quis pellentesque mi fermentum. Etiam pellentesque sollicitudin nibh nec tincidunt. Maecenas scelerisque enim et lectus bibendum dignissim. Nunc quis porttitor sem. Integer commodo, eros ac cursus elementum, risus velit lacinia nisl, at laoreet sapien neque at lectus. Phasellus eu leo sit amet nunc commodo convallis vel vitae nulla.</div>
+        </div>
+      
+        <div class="mySlides fade">
+
+          <div class="text"> Etiam pellentesque sollicitudin nibh nec tincidunt. Maecenas scelerisque enim et lectus bibendum dignissim. Nunc quis porttitor sem. Integer commodo, eros ac cursus elementum, risus velit lacinia nisl, at laoreet sapien neque at lectus. Phasellus eu leo sit amet nunc commodo convallis vel vitae nulla.</div>
+        </div>
+      
+        <div class="mySlides fade">
+
+          <div class="text">Lorem ipsum dolor sit amet</div>
+        </div>
+
+        <div class="mySlides fade">
+
+          <div class="text">Lorem ipsum dolor sit amet 222</div>
+        </div>
+      
+        <!-- Next and previous buttons -->
+        <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
+        <p class="next" onclick="plusSlides(1)">&#10095;</p>
+      </div>
+      <br>
+      
+      <!-- The dots/circles -->
+      <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+      </div>
+
+</div>
+
+                `
+            }
+}
+customElements.define('elem-testimonials', testimonials)
 
 
 //set variables for modal
