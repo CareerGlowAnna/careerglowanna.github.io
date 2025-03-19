@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Barrio&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root{
-    --color_blue:#65a0af;
+    --color_blue:#8fc6d1;
+    --color_blue_special:#66c0d6;
+    --color_bg:#e6e6e6;
     --font_main:'tinos';
 }
 
  body {
-    background-image: linear-gradient(to right,rgb(231, 229, 226),rgb(255, 255, 255),rgb(231, 229, 226));
+    background-image: linear-gradient(to right,var(--color_bg),rgb(255, 255, 255),var(--color_bg));
     /*background-color: #f0f0f0;*/
     color:rgb(24, 24, 24);
     text-align: center;
@@ -80,8 +82,8 @@ button:hover{
 
 .specialheader{
     display: block;
-    background-image: linear-gradient(to right,rgb(231, 229, 226),rgba(231, 229, 226, 0.466),rgb(214, 212, 208));
-    /*background-color: #cac7c3;*/
+    /* background-image: linear-gradient(to right,rgb(231, 229, 226),rgba(231, 229, 226, 0.466),rgb(214, 212, 208)); */
+    background-color: var(--color_bg);
     color:rgb(24, 24, 24);
 }
 
@@ -124,9 +126,10 @@ a:hover {
 
 .specialfooter{
     display: block;
-    background-color: #cac7c3;
-    color:rgb(24, 24, 24);
+    background-color: var(--color_bg);
+    color: black;
     margin-bottom: 0;
+    margin-right: 20px;
 }
 
 
@@ -137,7 +140,18 @@ a:hover {
     padding-top: 1.5%;
     margin-left: 5%;
     margin-right: auto;
+    scale: 1;
+    filter: drop-shadow(5px 5px 3px rgba(0, 0, 0, 0));
+
+    transition: 1s;
 }
+
+.headerimage:hover {
+    scale: 1.05;
+    filter: drop-shadow(15px 15px 8px rgba(0, 0, 0, 0.3));
+    transition: 0.3s;
+}
+
 
 .contactdet {
     text-align: right;
@@ -164,6 +178,7 @@ li{
    width: fit-content;
     padding-bottom: 10px;
     transition: 1s;
+    color: var(--color_blue);
 }
 
 li:hover{
@@ -195,9 +210,12 @@ li:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: var(--color_blue);
+    transition: 1s;
 }
 .inspiquote:hover{
     scale: 1.05;
+    transition: 0.3s;
 }
 
 

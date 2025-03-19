@@ -24,6 +24,7 @@
     transform: rotate(0.5deg);
     filter: drop-shadow(rgba(0, 0, 0, 0.5) 10px 10px 10px);
     z-index: 2;
+    background-color: var(--color_blue_special);
 
     transition: 0.3s;
 }
@@ -31,8 +32,9 @@
 .servicescont_L:hover{
     scale: 1.1;
     transform: rotate(-0.5deg);
-    filter: drop-shadow(rgba(0, 0, 0, 0.5) 10px 10px 10px);
+    filter: drop-shadow(rgba(0, 0, 0, 0.3) 10px 10px 10px);
     z-index: 2;
+    background-color: var(--color_blue_special);
 
     transition: 0.3s;
 }

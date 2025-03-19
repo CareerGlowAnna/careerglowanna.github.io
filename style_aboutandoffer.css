@@ -1,0 +1,266 @@
+.aboutgrid{
+    margin-top: 20px;
+    display: grid;  
+    grid-template:
+    [row1-start] 'title image' 2fr [row1-end]
+    [row2-start] 'text image' 3fr [row2-end]
+    / 2fr 1fr;
+    z-index: 0;
+}
+.aboutgridsloth1_1{
+    width: 85%;
+    text-align: left;
+    color: white;
+    justify-self: start;
+    padding-left: 10px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: 0%;
+    color: white;
+    grid-area: title;
+    z-index: 1;
+    font-family: var(--font_main);
+}
+
+.aboutgridsloth2_1{
+    width: 85%;
+    color: white;
+    display: block;
+    margin-top: 30;
+    margin-bottom:auto;
+    color: white;
+    text-align: left;
+    grid-area: text;
+    z-index: 1;
+    margin-left: 10px;
+}
+
+
+.aboutgridimage{
+    /* grid-area: image ; */
+    /* grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2; */
+
+    width: 66.7%;
+    display: block;
+    position:absolute;
+
+    float: right;
+    right: 0px;
+
+
+    transform-origin: center right;
+    scale: 100%;
+    margin-top: -20%;
+    margin-right: -3%;
+    z-index: 0;
+}
+
+.aboutabout{
+    color: rgba(255, 255, 255, 0.15);
+    text-align: left;
+    font-size: 1000%;
+    position: absolute;
+    margin-top: -20px;
+    margin-left: 10px;
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+
+
+     .aboutgridsloth1_1{
+        width: 98%;
+        font-size: 150%;
+     }
+     .aboutgridsloth2_1{
+        width: 98%;
+        font-size: 100%;
+        margin-left: 5px;
+        text-align: left;
+     }
+     .aboutgrid{
+        margin-top: 20px;
+        display: grid;  
+        grid-template:
+        [row1-start] 'title image' 2fr [row1-end]
+        [row2-start] 'text image' 3fr [row2-end]
+        / 2fr 1fr;
+    }
+    .aboutgridimage{
+        scale: 120%;
+
+    }
+    .aboutabout{
+        font-size: 400%;
+        position: absolute;
+        margin-top: 0px;
+    }
+
+
+}
+
+
+
+/*_____________________about____________________________*/
+
+/*_____________________OFFER____________________________*/
+
+
+
+:root{
+    --offersecheight: 100px;
+    --offertextheight: 175%;
+    --offer_text_width: 400px;
+    --offer_gradient_extent: 30%;
+}
+
+.offermastercontainer{
+    position: relative;
+    width: 90%;
+    max-width: 98%;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.offersection_left{
+    display: grid;  
+    grid-template:
+    1fr/1fr;
+    height: var(--offersecheight);
+    width: 90%;
+    max-width: 85vw;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+
+    margin-top: 15px;
+    float: left;
+    margin-left: 50px;
+
+}
+
+.offersection_right{
+    display: grid;  
+    grid-template:
+    1fr/1fr;
+    height: var(--offersecheight);
+    width: 90%;
+    max-width: 85vw;
+    border-radius: 30px;
+    overflow: hidden;
+    position: relative;
+    transition: 1s;
+
+    margin-top: 15px;
+    float: right;
+    margin-right: 50px;
+
+}
+
+.offersection_left:hover{
+    transform: scale(102%);
+    transition: 0.2s;
+    margin-left: 10px;
+}
+
+.offersection_right:hover{
+    transform: scale(102%);
+    transition: 0.2s;
+    margin-right: 10px;
+}
+
+.offerimage{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;
+}
+
+.offergradient_left{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(to right,var(--color_blue) var(--offer_gradient_extent),rgba(0, 0, 0, 0));
+    z-index: 1;
+    position: absolute;
+}
+
+.offergradient_right{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background: linear-gradient(to left,var(--color_blue)  var(--offer_gradient_extent),rgba(0, 0, 0, 0));
+    z-index: 1;
+    position: absolute;
+}
+
+.offer_text_left{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    align-self: center;
+    justify-self: left;
+    font-size: var(--offertextheight);
+    max-width: var(--offer_text_width);
+    text-align: left;
+    padding-left: 15px;
+}
+
+.offer_text_right{
+    position: absolute;
+    z-index: 2;
+    color: white;
+    align-self: center;
+    justify-self: right;
+    font-size:var(--offertextheight);
+    max-width: var(--offer_text_width);
+    text-align: right;
+    padding-right: 15px;
+}
+
+.offerh1{
+    color: var(--color_blue);
+    font-size: 200%;
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+    :root{
+        --offersecheight: 200px;
+        --offertextheight: 150%;
+        --offer_text_width: 600px;
+        --offer_gradient_extent: 50%;
+    }
+}
+
+
+/*__________________AboutOffer_________________*/
+
+.aboutoffergrid{
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+    max-width: 1500px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*PHONE SCREEN OVERRIDES*/
+@media only screen and (max-width: 1000px) {
+
+    .aboutoffergrid{
+        display: grid; 
+        grid-template-columns: 1fr;
+    }
+
+
+}

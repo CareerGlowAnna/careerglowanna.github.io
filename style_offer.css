@@ -18,7 +18,7 @@
     grid-template:
     1fr/1fr;
     height: var(--offersecheight);
-    width: 1000px;
+    width: 500px;
     max-width: 85vw;
     border-radius: 30px;
     overflow: hidden;
