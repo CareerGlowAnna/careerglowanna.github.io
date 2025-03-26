@@ -2,6 +2,7 @@
 
 :root{
     --color_blue:#8fc6d1;
+    --color_blue_blend:#8fc6d150;
     --color_blue_special:#66c0d6;
     --color_bg:#e6e6e6;
     --font_main:'tinos';
@@ -50,6 +51,7 @@ button{
     border-radius: 15px;
     transition: 1s;
     font-size: 100%;
+
 }
 
 button:hover{
@@ -68,6 +70,8 @@ button:hover{
     background-color: var(--color_blue);
     font-family: var(--font_main);
     font-weight: 700;
+    color: white;
+    margin: auto;
 }
 
 
@@ -83,9 +87,17 @@ button:hover{
 .specialheader{
     display: block;
     /* background-image: linear-gradient(to right,rgb(231, 229, 226),rgba(231, 229, 226, 0.466),rgb(214, 212, 208)); */
-    background-color: var(--color_bg);
-    color:rgb(24, 24, 24);
+    
+    color:white;
+    background-color: var(--color_blue);
+
+    background-image:
+    url("https://i.postimg.cc/dVBwmRLj/1-coaching.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
+    
 }
+
 
 .toplinks{
     padding: 20;
@@ -126,10 +138,15 @@ a:hover {
 
 .specialfooter{
     display: block;
-    background-color: var(--color_bg);
-    color: black;
+    background-color: var(--color_blue);
+    color: white;
     margin-bottom: 0;
-    margin-right: 20px;
+    height: 200px;
+
+    background-image:
+    url("https://i.postimg.cc/VLyJ7cFs/3-goals.jpg");
+    background-size: cover;
+    background-blend-mode: soft-light;
 }
 
 
@@ -159,6 +176,9 @@ a:hover {
     padding-left: 10vw;
     font-size: small;
     display: inline-block;
+    position: relative;
+    float: right;
+    padding-right: 20px;
 }
 .topcontactdet{
     text-align: right;
@@ -207,6 +227,7 @@ li:hover{
 
 .inspiquote{
     width: 80vw;
+    max-width: 1200px;
     display: block;
     margin-left: auto;
     margin-right: auto;

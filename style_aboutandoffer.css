@@ -6,6 +6,8 @@
     [row2-start] 'text image' 3fr [row2-end]
     / 2fr 1fr;
     z-index: 0;
+
+
 }
 .aboutgridsloth1_1{
     width: 85%;
@@ -56,6 +58,8 @@
     margin-top: -20%;
     margin-right: -3%;
     z-index: 0;
+
+    pointer-events: none;
 }
 
 .aboutabout{
@@ -65,6 +69,23 @@
     position: absolute;
     margin-top: -20px;
     margin-left: 10px;
+
+
+}
+
+.aboutcontainer{
+    background-color: var(--color_blue);
+    border-radius: 50px;
+    margin: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+    background-image:
+    url("https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg");
+    background-size: cover;
+    background-blend-mode:soft-light;
 }
 
 /*PHONE SCREEN OVERRIDES*/
@@ -91,7 +112,7 @@
         / 2fr 1fr;
     }
     .aboutgridimage{
-        scale: 120%;
+        scale: 100%;
 
     }
     .aboutabout{

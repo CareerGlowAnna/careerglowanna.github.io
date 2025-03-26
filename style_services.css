@@ -16,6 +16,11 @@
 
     transition: 1s;
 
+    background-image:
+    url("https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg");
+    background-size: cover;
+    background-blend-mode:soft-light;
+
 
 }
 

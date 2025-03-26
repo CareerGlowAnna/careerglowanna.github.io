@@ -5,15 +5,16 @@ class specialheader extends HTMLElement {
     connectedCallback() {
         this.innerHTML = `
 <div class="specialheader" id="specialheader">
-  <img class="headerimage" src="https://i.postimg.cc/P5LJDG3j/career-glow-trans-blue.png" onclick="gotohome()"></img>
+  <img class="headerimage" src="https://i.postimg.cc/hPywSDFW/career-glow-trans-white.png" onclick="gotohome()"></img>
   <div class="topcontactdet"><contact-det></contact-det></div>
   
+  <!-- 
 
   <div id="hamburger" class="hamburger" onclick="openhamburger()">
           <img src="https://i.postimg.cc/hjFzHZbD/careerglow-hamburger.png"></img>
   </div>
 
-  <!-- 
+
   
   <div id="topliniks" class="toplinks">
       
@@ -186,9 +187,9 @@ class services extends HTMLElement {
 
 <h1 style="color: var(--color_blue);">Our Services:</h1>
 
-<div class="grid_services">
+<div class="grid_services" >
 
-<div class="servicescont_R">
+<div  class="servicescont_R" >
         <h2>One to One Individual Coaching Sessions (Live Online)</h2>
         <div class="services_inner">
         <p>Individually tailored coaching to accelerate your career journey.Career Glow specialises in Career Transitions,  Mid and Early career coaching.</p>
@@ -198,7 +199,7 @@ class services extends HTMLElement {
         </div>
 </div>
 
-<div class="servicescont_L">
+<div class="servicescont_L" >
         <h2>The Ultimate Career Change Package (Live Online)</h2>
         <p>A combination of one to one and group coaching to provide you with:</p>
         <ul class="ul_services_R" >
@@ -216,7 +217,7 @@ class services extends HTMLElement {
         <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
 </div>
 
-<div class="servicescont_R">
+<div  class="servicescont_R" >
         <h2>From Stuck to Hired Package (Live Online)</h2>
         <p>A combination of one to one and group coaching to provide you with:</p>
         <ul class="ul_services_L" >
@@ -233,7 +234,7 @@ class services extends HTMLElement {
         <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
 </div>
 
-<div class="servicescont_L">
+<div  class="servicescont_L" >
         <h2>The Jobseeker’s Toolkit   (Pre-recorded Online)</h2>
         <p>Pre-recorded, step-by-step strategies, tools and tips on: </p>
         <ul class="ul_services_R" >
@@ -262,21 +263,19 @@ class testimonials extends HTMLElement {
         this.innerHTML = `
 <link href="style_testimonials.css" rel="stylesheet">
 <script defer src="js_testimonials.js"></script>
-<!-- Slideshow container -->
 
         <h2 style="color: var(--color_blue);">Our Testimonials:</h2>
 
 <div class="slideshow-container">
 
-        <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
 
-          <div class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas tellus magna, sollicitudin ac metus non, suscipit posuere odio. Integer laoreet odio id dui porttitor, quis pellentesque mi fermentum. Etiam pellentesque sollicitudin nibh nec tincidunt. Maecenas scelerisque enim et lectus bibendum dignissim. Nunc quis porttitor sem. Integer commodo, eros ac cursus elementum, risus velit lacinia nisl, at laoreet sapien neque at lectus. Phasellus eu leo sit amet nunc commodo convallis vel vitae nulla.</div>
+          <div class="text"> I found her attention to detail regarding amendments to my CV, and her ideas of how to find suitable employment excellent. She puts a lot of preparation and thought into her work, and I look forward to putting her suggestions into practise and securing my ideal position. I would be a lot more confidant of success after working with her.</div>
         </div>
       
         <div class="mySlides fade">
 
-          <div class="text"> Etiam pellentesque sollicitudin nibh nec tincidunt. Maecenas scelerisque enim et lectus bibendum dignissim. Nunc quis porttitor sem. Integer commodo, eros ac cursus elementum, risus velit lacinia nisl, at laoreet sapien neque at lectus. Phasellus eu leo sit amet nunc commodo convallis vel vitae nulla.</div>
+          <div class="text"> Anna was extremely efficient, helpful and supportive. She highlighted my strengths and values, which has made it easier for me to search for a suitable job. We discussed various avenues of job searching and she encouraged me to apply in ways I hadn't previously. I am extremely satisfied with our sessions!</div>
         </div>
       
         <div class="mySlides fade">
@@ -318,7 +317,7 @@ class aboutandoffer extends HTMLElement {
 
 <div class="aboutoffergrid" >
 
-<div style="background-image: linear-gradient(to right,var(--color_blue),#a1bfc7,var(--color_blue));border-radius: 50px;margin: 20px;max-width: 1200px;margin-left: auto;margin-right: auto; position: relative;">
+<div class="aboutcontainer">
         
 
         <h1 class="aboutabout">ABOUT</h1>
@@ -402,6 +401,52 @@ class aboutandoffer extends HTMLElement {
     customElements.define('elem-aboutandoffer', aboutandoffer)
 
 
+
+    class socials extends HTMLElement {
+        connectedCallback() {
+            this.innerHTML = `
+<link href="socials.css" rel="stylesheet">
+
+<h2 class="socialstitle">Find us on:</h2>
+
+<div class="socialscontainer">
+  
+
+  <a class="socialslink" href="https://ie.linkedin.com/">
+    <img  class="socialsimage" src="https://i.postimg.cc/sDvsr0BX/in.png">
+  </a>
+
+  <a class="socialslink" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F">
+    <img  class="socialsimage" src="https://i.postimg.cc/x1mQkJ3V/fb.png">
+  </a>
+
+  <a class="socialslink" href="https://www.instagram.com/">
+   <img  class="socialsimage" src="https://i.postimg.cc/k5dmWJT6/insta.png">
+  </a>
+</div>
+                    `
+                }
+    }
+    customElements.define('elem-socials', socials)
+
+
+//var serviceelems;
+
+//var serviceelems_R = document.getElementsByClassName('servicescont_R','servicescont_L')
+
+
+
+function scrollto(elem) {
+        elem.scrollIntoView({ behavior: "smooth",  block: "center", inline: "nearest" });
+
+
+}
+
+
+
+
+
+
 //set variables for modal
 var modal = document.getElementById("modal")
 var modalimg = document.getElementById("modal-content")
@@ -469,4 +514,4 @@ function changefavicon() {
 
 }
 
-   window.onload = animatefavicon(),gettitle();
+   window.onload = animatefavicon();

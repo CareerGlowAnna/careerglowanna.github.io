@@ -1,0 +1,8 @@
+.socialslink{
+    background-color:  transparent!important;
+}
+
+.socialstitle{
+    font-family: var(--font_main);
+    color: var(--color_blue);
+}

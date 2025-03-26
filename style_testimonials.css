@@ -11,6 +11,11 @@
   background-color: var(--color_blue);
   border-radius: 30px;
   transition: 1s;
+
+  background-image:
+  url("https://i.postimg.cc/bJKhN3Bp/5-networking.jpg");
+  background-size: cover;
+  background-blend-mode:soft-light;
 }
 
 .slideshow-container:hover {  
@@ -64,7 +69,7 @@
 /* Caption text */
 .text {
   color: #ffffff;
-  font-size: 100%;
+  font-size: 120%;
   padding: 8px 12px;
   position: relative;
   top:auto;
