@@ -412,7 +412,7 @@ class aboutandoffer extends HTMLElement {
 <div class="socialscontainer">
   
 
-  <a class="socialslink" href="https://ie.linkedin.com/">
+  <a class="socialslink" href="https://www.linkedin.com/in/anna-cieslowska-36872b167?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
     <img  class="socialsimage" src="https://i.postimg.cc/sDvsr0BX/in.png">
   </a>
 
@@ -420,7 +420,7 @@ class aboutandoffer extends HTMLElement {
     <img  class="socialsimage" src="https://i.postimg.cc/x1mQkJ3V/fb.png">
   </a>
 
-  <a class="socialslink" href="https://www.instagram.com/">
+  <a class="socialslink" href="https://www.instagram.com/careerglowcoachingwithanna?igsh=Y2F1MXc1Nmx1N2k=">
    <img  class="socialsimage" src="https://i.postimg.cc/k5dmWJT6/insta.png">
   </a>
 </div>
