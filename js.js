@@ -2,10 +2,10 @@
 
 
 class specialheader extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <div class="specialheader" id="specialheader">
-  <img class="headerimage" src="https://i.postimg.cc/hPywSDFW/career-glow-trans-white.png" onclick="gotohome()"></img>
+  <img class="headerimage" src="https://i.postimg.cc/Xv4cYMBK/ANNA-C-CAREER-GLOW-Transparent-2.png" onclick="gotohome()"></img>
   <div class="topcontactdet"><contact-det></contact-det></div>
   
   <!-- 
@@ -29,38 +29,38 @@ class specialheader extends HTMLElement {
 
 
         `
-    }
+        }
 }
 customElements.define('special-header', specialheader)
 
 class specialfooter extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
         <div class="specialfooter" id="specialfooter">
        <contact-det></contact-det>
     </div>
         `
-    }
+        }
 }
 customElements.define('special-footer', specialfooter)
 
 class contactdet extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
         <div class="contactdet" id="contactdet">
         <p class="contactdet_text">087 399 2750</p>
         <a class="contactdet_text" href="contact.html">Contact</a>
         <p class="contactdet_text">careerglowcoachingwithanna@gmail.com</p>
     </div>
         `
-    }
+        }
 }
 customElements.define('contact-det', contactdet)
 
 
 class landing extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <br><br><br>
         <h1 class="inspiquote">Imagine yourself 5 years from now: Is it daunting to think you'd be where you are now? Why wait to do something that you feel is right?</h1>
 
@@ -80,13 +80,13 @@ class landing extends HTMLElement {
 <br><br><br>
 
 <button class="button1" type="button" onclick="location.href = 'contact.html';">Book a FREE consultation</button>`
-    }
+        }
 }
 customElements.define('elem-landing', landing)
 
 class about extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <link href="style_about.css" rel="stylesheet">
 <div style="background-image: linear-gradient(to right,#65a0af,#87afb9,#65a0af);border-radius: 50px;margin: 20px;max-width: 1200px;margin-left: auto;margin-right: auto;">
         
@@ -97,7 +97,7 @@ class about extends HTMLElement {
         <div class="aboutgrid">
 
                 <h1 class="aboutgridsloth1_1" >
-                Meet Anna, Professional Career & Development Coach at Career Glow.</h1>
+                Meet Anna, Professional Career Change Coach at Career Glow.</h1>
 
                 <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
                 class="aboutgridimage">
@@ -121,14 +121,14 @@ class about extends HTMLElement {
 
 </div>
         `
-            }
+        }
 }
 customElements.define('elem-about', about)
 
 
 class offer extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <link href="style_offer.css" rel="stylesheet">
 
 <div class="offermastercontainer">
@@ -138,13 +138,13 @@ class offer extends HTMLElement {
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Receive 1:1 Tailored Coaching Sessions</div>
+                <div class="offer_text_left">Navigate your core values & strengths</div>
         </div>
         
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Take part in Career Glow webinars</div>
+                <div class="offer_text_right">Identify your transferable skills</div>
         </div>
 
         <div class="offersection_left">
@@ -162,31 +162,33 @@ class offer extends HTMLElement {
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Improve your job search, interview, CV and networking skills</div>
+                <div class="offer_text_left">Receive job search, interview, CV and networking support</div>
         </div>
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Achieve your goals </div>
+                <div class="offer_text_right">Interview Preparation support </div>
         </div>
 
 </div>
                 `
-            }
+        }
 }
 customElements.define('elem-offer', offer)
-        
+
 
 
 class services extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <link href="style_services.css" rel="stylesheet">
 
-<h1 style="color: var(--color_blue);">Our Services:</h1>
+<h1 style="color: var(--color_blue);">Our Offer:</h1>
 
 <div class="grid_services" >
+
+<!--
 
 <div  class="servicescont_R" >
         <h2>One to One Individual Coaching Sessions (Live Online)</h2>
@@ -198,23 +200,28 @@ class services extends HTMLElement {
         </div>
 </div>
 
+-->
+
 <div class="servicescont_L" >
-        <h2>The Ultimate Career Change Package (Live Online)</h2>
-        <p>A combination of one to one and group coaching to provide you with:</p>
+        <h2>The Ultimate Career Change Programme</h2>
+        <p>This first-rate all-inclusive programme will be delivered over 3 months with 6 value-packed 1:1 sessions, high-touch support at times of need, additional resources and worksheets and ongoing support until your ideal job is secured. With this programme, You will learn how to:</p>
         <ul class="ul_services_R" >
-                <li>Individual approach</li>
-                <li>Affordability</li>
-                <li>Mutual learning</li>
-                <li>Increased Confidence</li>
-                <li>Accountability</li>
-                <li>Networking Opportunities</li>
-                <li>Proven tools & techniques essential for career changers</li>
+                <li class="li_services">Navigate your values and strengths</li>
+                <li class="li_services">Identify your transferable skills</li>
+                <li class="li_services">Identify your non-negotiables and job expectations</li>
+                <li class="li_services">Identify and narrow down your jobs of interest</li>
+                <li class="li_services">Develop actionable steps needed for your career pivot</li>
+                <li class="li_services">Use different tactics and strategies for your job search</li>
+                <li class="li_services">Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
+                <li class="li_services">Navigate the interview process to your advantage and negotiate your salary</li>
         </ul>
-        <h3>Cost (6 x 1 hour sessions): 		€500</h3>
+        <h3>Enquire below to learn more</h3>
         <p> *Payment plans available</p>
 
-        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book your introductory call today!</button>
+        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Enquire here</button>
 </div>
+
+<!--
 
 <div  class="servicescont_R" >
         <h2>From Stuck to Hired Package (Live Online)</h2>
@@ -226,7 +233,7 @@ class services extends HTMLElement {
                 <li>Increased Confidence</li>
                 <li>Accountability</li>
                 <li>Networking Opportunities</li>
-                <li>Proven tools & techniques essential for job seekers.</li>
+                <li class="li_services">Proven tools & techniques essential for job seekers.</li>
         </ul>
         <h3>Standard Cost (1 hour session):		€110</h3>
 
@@ -249,17 +256,19 @@ class services extends HTMLElement {
         <button class="button_white" type="button" onclick="location.href = 'contact_RequestJobSeekers.html';">Request your Jobseeker’s toolkit</button>
 </div>
 
+-->
+
 </div>
 
                 `
-            }
+        }
 }
 customElements.define('elem-services', services)
 
 
 class testimonials extends HTMLElement {
-    connectedCallback() {
-        this.innerHTML = `
+        connectedCallback() {
+                this.innerHTML = `
 <link href="style_testimonials.css" rel="stylesheet">
 <script defer src="js_testimonials.js"></script>
 
@@ -304,17 +313,67 @@ class testimonials extends HTMLElement {
 </div>
 
                 `
-            }
+        }
 }
 customElements.define('elem-testimonials', testimonials)
 
 
 class aboutandoffer extends HTMLElement {
         connectedCallback() {
-            this.innerHTML = `
+                this.innerHTML = `
 <link href="style_aboutandoffer.css" rel="stylesheet">
 
 <div class="aboutoffergrid" >
+
+    <div class="offermastercontainer">
+
+        <!--<h1 class="offerh1">WHAT WE OFFER:</h1>-->
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Navigate your strengths and values</div>
+        </div>
+        
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Identify your transferable skills</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Clarify your expectations and goals</div>
+        </div>
+
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Implement a proven strategy</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Receive job search and application support</div>
+        </div>
+
+        <div class="offersection_right">
+                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">Optimise your CV, Cover Letter and LinkedIn profile</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
+                <div class="offergradient_right"></div>
+                <div class="offer_text_right">Interview preparation and tips </div>
+        </div>
+
+        
+
+</div>
 
 <div class="aboutcontainer">
         
@@ -327,22 +386,32 @@ class aboutandoffer extends HTMLElement {
         <div class="aboutgrid">
 
                 <h1 class="aboutgridsloth1_1" >
-                Meet Anna, Professional Career & Development Coach at Career Glow.</h1>
+                Meet Anna, Professional Career Change Coach</h1>
 
                 
 
                 <h3 class="aboutgridsloth2_1" >
-                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she uses in her coaching practice, also taking from her background experience of coaching, operations, and development.
+                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she now uses in her coaching practice to help people in their career transitions.
                 </h2>
                  
         </div>
 
-        <h2 style="color: white;max-width: 95%;margin-left: auto; margin-right: auto; z-index: 5; position: relative;">Coaching at Career Glow is a proven professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career.  We specialize in:</h2>
+         <br><br>       
 
-        <div style="background-color: rgb(233, 232, 230);max-width: 95%;margin-left: auto;margin-right: auto;border-radius: 30px;margin-bottom: 20px;border-bottom: 20px;z-index: 1; position: relative;">
+        <h2 style="color: white;max-width: 95%;margin-left: auto; margin-right: auto; z-index: 5; position: relative;">Career Glow is provides a professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career. We strive to approach everyone individually to tailor for personal needs and long-lasting career fulfillment.  We specialize in:</h2>
+
+        <div class="specs">
                 <ul style="width: 90%;">
                         <li style="font-size: 75%;">
-                                Career transitions, Mid-Career and Early-Career development and planning. We appreciate that each client is unique and comes with a different set of skills, background and experiences. We strive to approach everyone individually to tailor for personal needs and long-lasting results.  
+                                Career transition
+                        </li>
+                </ul>
+        </div>
+
+        <div class="specs">
+                <ul style="width: 90%;">
+                        <li style="font-size: 75%;">
+                                Job Satisfaction 
                         </li>
                 </ul>
         </div>
@@ -350,60 +419,20 @@ class aboutandoffer extends HTMLElement {
 
 </div>
 
-<div class="offermastercontainer">
 
-        <h1 class="offerh1">WHAT WE OFFER:</h1>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">Receive 1:1 Tailored Coaching Sessions</div>
-        </div>
-        
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">Take part in Career Glow webinars</div>
-        </div>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">Clarify, Set and Plan for your Goals</div>
-        </div>
-
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">Identify your skills gap, build your confidence and tame your inner critic</div>
-        </div>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">Improve your job search, interview, CV and networking skills</div>
-        </div>
-
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">Achieve your goals </div>
-        </div>
-
-</div>
 
 </div>
     
                     `
-                }
-    }
-    customElements.define('elem-aboutandoffer', aboutandoffer)
+        }
+}
+customElements.define('elem-aboutandoffer', aboutandoffer)
 
 
 
-    class socials extends HTMLElement {
+class socials extends HTMLElement {
         connectedCallback() {
-            this.innerHTML = `
+                this.innerHTML = `
 <link href="socials.css" rel="stylesheet">
 
 <h2 class="socialstitle">Find us on:</h2>
@@ -424,9 +453,9 @@ class aboutandoffer extends HTMLElement {
   </a>
 </div>
                     `
-                }
-    }
-    customElements.define('elem-socials', socials)
+        }
+}
+customElements.define('elem-socials', socials)
 
 
 //var serviceelems;
@@ -436,7 +465,7 @@ class aboutandoffer extends HTMLElement {
 
 
 function scrollto(elem) {
-        elem.scrollIntoView({ behavior: "smooth",  block: "center", inline: "nearest" });
+        // elem.scrollIntoView({ behavior: "smooth",  block: "center", inline: "nearest" });
 
 
 }
@@ -452,65 +481,65 @@ var modalimg = document.getElementById("modal-content")
 //open modal
 function fullimage(element) {
 
-    var elementsrc = element.getAttribute("src")
-    modal.style.display = "block";
-    modalimg.src = elementsrc;
-    ScrollDisable();
+        var elementsrc = element.getAttribute("src")
+        modal.style.display = "block";
+        modalimg.src = elementsrc;
+        ScrollDisable();
 }
 
 
 //Close modal on click on window
 
-function ScrollDisable(){
-    var x=window.scrollX;
-    var y=window.scrollY;
-    window.onscroll=function(){window.scrollTo(x, y);};
+function ScrollDisable() {
+        var x = window.scrollX;
+        var y = window.scrollY;
+        window.onscroll = function () { window.scrollTo(x, y); };
 }
 
-function ScrollEnable(){
-    window.onscroll=function(){};
+function ScrollEnable() {
+        window.onscroll = function () { };
 }
 
 
 
 function openhamburger() {
 
-    var toplinks = document.getElementById("topliniks");
-    var hamdisplay = toplinks.style.display;
-    if (hamdisplay === "none" ||hamdisplay === "") {toplinks.style.display = "inline-grid";} else {toplinks.style.display = "none";}
+        var toplinks = document.getElementById("topliniks");
+        var hamdisplay = toplinks.style.display;
+        if (hamdisplay === "none" || hamdisplay === "") { toplinks.style.display = "inline-grid"; } else { toplinks.style.display = "none"; }
 }
 
 function closemodal() {
 
-    modal.style.display = "none";
-    ScrollEnable();
+        modal.style.display = "none";
+        ScrollEnable();
 
 }
 
 function gotohome() {
-    window.location.href="index.html"
+        window.location.href = "index.html"
 }
 
 
 
 function animatefavicon() {
-    setInterval(changefavicon, 1500);
-    };
+        setInterval(changefavicon, 1500);
+};
 
-    let faviconIndex = 0
+let faviconIndex = 0
 function changefavicon() {
 
-    var favicon = document.getElementById("favicon");
+        var favicon = document.getElementById("favicon");
 
-    if (faviconIndex === 0 || faviconIndex === undefined || faviconIndex === null) { favicon.href =  "https://lh3.googleusercontent.com/pw/AP1GczPX18yMuqjJ4-vbfk2Vx6NP834TKuPp1lNnU8JVbE1SVP2Ys3e-4KxuuGAYlvK_OfzWFby00XahAxszGGr92Nb4BckQMUrp4PARj-S1k77VvKJ9mPPwHlzpDLw7DM1oxs6SzLoL-sKsvDqcP5RG4jtb=w16-h16-s-no?authuser=0";faviconIndex = 1} 
+        if (faviconIndex === 0 || faviconIndex === undefined || faviconIndex === null) { favicon.href = "https://lh3.googleusercontent.com/pw/AP1GczPX18yMuqjJ4-vbfk2Vx6NP834TKuPp1lNnU8JVbE1SVP2Ys3e-4KxuuGAYlvK_OfzWFby00XahAxszGGr92Nb4BckQMUrp4PARj-S1k77VvKJ9mPPwHlzpDLw7DM1oxs6SzLoL-sKsvDqcP5RG4jtb=w16-h16-s-no?authuser=0"; faviconIndex = 1 }
 
-    else if (faviconIndex === 1) { favicon.href =  "https://lh3.googleusercontent.com/pw/AP1GczM3HM-W0CZV8M-ua9fhCsZ0pYT9kD9Pefo0jjzdw0DwZv0L7PU-6Y9cd5w5VdQXDBLFbGpmAhSA8Nil_oaRNkoLQcodqcgIT4GMg-zhR4tZH2kv3v2DPH_ML7Fr6kPqQOCraRsqWHY0MmuzdoO-HGsm=w16-h16-s-no?authuser=0";faviconIndex =2 } 
+        else if (faviconIndex === 1) { favicon.href = "https://lh3.googleusercontent.com/pw/AP1GczM3HM-W0CZV8M-ua9fhCsZ0pYT9kD9Pefo0jjzdw0DwZv0L7PU-6Y9cd5w5VdQXDBLFbGpmAhSA8Nil_oaRNkoLQcodqcgIT4GMg-zhR4tZH2kv3v2DPH_ML7Fr6kPqQOCraRsqWHY0MmuzdoO-HGsm=w16-h16-s-no?authuser=0"; faviconIndex = 2 }
 
-    else if (faviconIndex === 2) { favicon.href =  "https://lh3.googleusercontent.com/pw/AP1GczPX18yMuqjJ4-vbfk2Vx6NP834TKuPp1lNnU8JVbE1SVP2Ys3e-4KxuuGAYlvK_OfzWFby00XahAxszGGr92Nb4BckQMUrp4PARj-S1k77VvKJ9mPPwHlzpDLw7DM1oxs6SzLoL-sKsvDqcP5RG4jtb=w16-h16-s-no?authuser=0";faviconIndex = 3}
+        else if (faviconIndex === 2) { favicon.href = "https://lh3.googleusercontent.com/pw/AP1GczPX18yMuqjJ4-vbfk2Vx6NP834TKuPp1lNnU8JVbE1SVP2Ys3e-4KxuuGAYlvK_OfzWFby00XahAxszGGr92Nb4BckQMUrp4PARj-S1k77VvKJ9mPPwHlzpDLw7DM1oxs6SzLoL-sKsvDqcP5RG4jtb=w16-h16-s-no?authuser=0"; faviconIndex = 3 }
 
-    else if (faviconIndex === 3) { favicon.href =  "https://lh3.googleusercontent.com/pw/AP1GczOS-_FEz1XvtWgXI1w6TcvPSu8rgIiQ2ShC-4y52bDppCNJ_qh3ZCI5urYY6mwiPDRVS_PdSXKOmnONQopYWApSSRnHofiiRg0vJZ3mj5PyQwKA6pY=s16-p-k";faviconIndex = 0}
-        
+        else if (faviconIndex === 3) { favicon.href = "https://lh3.googleusercontent.com/pw/AP1GczOS-_FEz1XvtWgXI1w6TcvPSu8rgIiQ2ShC-4y52bDppCNJ_qh3ZCI5urYY6mwiPDRVS_PdSXKOmnONQopYWApSSRnHofiiRg0vJZ3mj5PyQwKA6pY=s16-p-k"; faviconIndex = 0 }
+
 
 }
 
-   window.onload = animatefavicon();
+window.onload = animatefavicon();

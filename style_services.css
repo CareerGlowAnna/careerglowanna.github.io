@@ -3,7 +3,7 @@
 
 
 .servicescont_R , .servicescont_L {
-    width: 250px;
+    width: 700px;
     height: fit-content;
     margin: 20px;
     padding: 25px;
@@ -74,6 +74,11 @@
     transform: rotate(-1deg);
     transition: 0.3s;
 }
+
+.li_services{
+    text-align: left;
+}
+
 
 .grid_services{
     display: inline-grid;

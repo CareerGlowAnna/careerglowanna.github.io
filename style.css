@@ -64,6 +64,7 @@ button:hover{
     color: var(--color_blue);
     font-family: var(--font_main);
     font-weight: 700;
+    font-size: 200%;
 }
 
 .button_blue{
@@ -180,6 +181,11 @@ a:hover {
     float: right;
     padding-right: 20px;
 }
+
+.contactdet_text{
+    font-size: 200%;
+}
+
 .topcontactdet{
     text-align: right;
     padding: 5px;
