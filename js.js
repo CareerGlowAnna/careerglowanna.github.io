@@ -62,18 +62,19 @@ class landing extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
 <br><br><br>
-        <h1 class="inspiquote">Imagine yourself 5 years from now: Is it daunting to think you'd be where you are now? Why wait to do something that you feel is right?</h1>
+        <h1 class="inspiquote">Helping you make a Career Change to feel good, not only look good. 
+         <br> Feel empowered with our proven process and support.</h1>
 
-<br><br><br>
+<br><br>
 
 
 <div style="text-align: center;">
 <ul>
-        <li>Are you stuck, stagnated or confused about your next steps?</li>
-        <li>Do you want to pursue a successful career that’s meaningful to you?</li>
+        <li>Do you feel like your golden handcuffs are holding you back?</li>
+        <li>Do you want to make a change but don't know where to start?</li>
         <li>Is self-doubt or imposter syndrome getting in your way?</li>
-        <li>Do you want to develop lifelong skills essential to achieve your goals?</li>
-        <li>Are you scared to start over?</li>
+        <li>Do you want to update your priorities and start doing what you actually enjoy?</li>
+        <li>Are you scared of starting over?</li>
 </ul>
 </div>
 
@@ -97,7 +98,7 @@ class about extends HTMLElement {
         <div class="aboutgrid">
 
                 <h1 class="aboutgridsloth1_1" >
-                Meet Anna, Professional Career Change Coach at Career Glow.</h1>
+                Meet Anna, a Professional Career Change Coach at Career Glow.</h1>
 
                 <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
                 class="aboutgridimage">
@@ -138,37 +139,37 @@ class offer extends HTMLElement {
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Navigate your core values & strengths</div>
+                <div class="offer_text_left">1.Navigate your core values & strengths</div>
         </div>
         
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Identify your transferable skills</div>
+                <div class="offer_text_right">2.Identify your transferable skills</div>
         </div>
 
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Clarify, Set and Plan for your Goals</div>
+                <div class="offer_text_left">3.Clarify, Set and Plan for your Goals</div>
         </div>
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Identify your skills gap, build your confidence and tame your inner critic</div>
+                <div class="offer_text_right">4.Identify your skills gap, build your confidence and tame your inner critic</div>
         </div>
 
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Receive job search, interview, CV and networking support</div>
+                <div class="offer_text_left">5.Receive job search, interview, CV and networking support</div>
         </div>
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Interview Preparation support </div>
+                <div class="offer_text_right">6.Interview Preparation support </div>
         </div>
 
 </div>
@@ -203,8 +204,13 @@ class services extends HTMLElement {
 -->
 
 <div class="servicescont_L" >
-        <h2>The Ultimate Career Change Programme</h2>
-        <p>This first-rate all-inclusive programme will be delivered over 3 months with 6 value-packed 1:1 sessions, high-touch support at times of need, additional resources and worksheets and ongoing support until your ideal job is secured. With this programme, You will learn how to:</p>
+        <h2>The Ultimate Career Glow Programme</h2>
+        <p>This first-rate all-inclusive programme for Career Change will be delivered over 3 months with:</p>
+        <p style="text-align: left;"> 6 value-packed 1:1 sessions with a qualified career coach specializing in career changes
+        <br> High-touch support at times of need outside of the sessions
+        <br> Additional resources and worksheets 
+        <br> Ongoing support until your ideal job is secured. </p>
+        <p> With this programme, You will learn how to:</p>
         <ul class="ul_services_R" >
                 <li class="li_services">Navigate your values and strengths</li>
                 <li class="li_services">Identify your transferable skills</li>
@@ -278,23 +284,27 @@ class testimonials extends HTMLElement {
 
         <div class="mySlides fade">
 
-          <div class="text"> I found her attention to detail regarding amendments to my CV, and her ideas of how to find suitable employment excellent. She puts a lot of preparation and thought into her work, and I look forward to putting her suggestions into practise and securing my ideal position. I would be a lot more confidant of success after working with her.</div>
+          <div class="text">Anna was very approachable and even on our 1st appointment she asked me some very key questions that made me realise straight away that I didn't only need help with job search or CV, but I wanted to take up a new path entirely. She was very knowledgeable and her methods made my career change exciting and re-assuring. I wouldn't have the knowledge, tools or the confidence to make the move otherwise! -Or at least not as quickly as I did! </div>
         </div>
-      
+
         <div class="mySlides fade">
 
           <div class="text"> Anna was extremely efficient, helpful and supportive. She highlighted my strengths and values, which has made it easier for me to search for a suitable job. We discussed various avenues of job searching and she encouraged me to apply in ways I hadn't previously. I am extremely satisfied with our sessions!</div>
         </div>
+
+        <div class="mySlides fade">
+
+          <div class="text"> I found Anna's attention to detail regarding amendments to my CV, and her ideas of how to find suitable employment excellent. She puts a lot of preparation and thought into her work, and I look forward to putting her suggestions into practise and securing my ideal position. I would be a lot more confidant of success after working with her.</div>
+        </div>
+      
+        
       
         <div class="mySlides fade">
 
-          <div class="text">Lorem ipsum dolor sit amet</div>
+          <div class="text">I had the pleasure of working with Anna and she was an incredible help throughout my job search journey. She guided me in identifying the type of job that truly suited me, helping me understand what I was willing to compromise on and what was most important to me. Her advice on adjusting my CV was invaluable, making it much more effective and targeted. She also provided excellent support in preparing for interviews, giving me the confidence I needed to perform well. Throughout the entire process, Anna was emphatetic, supportive and always knew the right words to keep my motivation high. Thanks to her guidance I received two job offers in just a month! I highly recommend her to anyone looking for a skilled and compassionate career coach!</div>
         </div>
 
-        <div class="mySlides fade">
-
-          <div class="text">Lorem ipsum dolor sit amet 222</div>
-        </div>
+       
       
         <!-- Next and previous buttons -->
         <p class="prev" onclick="plusSlides(-1)">&#10094;</p>
@@ -330,45 +340,45 @@ class aboutandoffer extends HTMLElement {
         <!--<h1 class="offerh1">WHAT WE OFFER:</h1>-->
 
         <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/NMfZrYx8/pexels-samerdaboul-2080544.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Navigate your strengths and values</div>
+                <div class="offer_text_left">1.Navigate your strengths and values</div>
         </div>
         
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Identify your transferable skills</div>
+                <div class="offer_text_right">2.Identify your transferable skills</div>
         </div>
 
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Clarify your expectations and goals</div>
+                <div class="offer_text_left">3.Clarify your expectations and goals</div>
         </div>
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Implement a proven strategy</div>
+                <div class="offer_text_right">4.Implement a proven strategy</div>
         </div>
 
         <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/FzPSsbHg/pexels-ron-lach-9841329.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Receive job search and application support</div>
+                <div class="offer_text_left">5.Receive job search and application support</div>
         </div>
 
         <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/vmzZsYB5/pexels-cottonbro-5989943.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">Optimise your CV, Cover Letter and LinkedIn profile</div>
+                <div class="offer_text_left">6.Optimise your CV, Cover Letter and LinkedIn profile</div>
         </div>
 
         <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/g2sCcnVc/pexels-fauxels-3184465.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">Interview preparation and tips </div>
+                <div class="offer_text_right">7.Interview preparation and tips </div>
         </div>
 
         
@@ -398,20 +408,20 @@ class aboutandoffer extends HTMLElement {
 
          <br><br>       
 
-        <h2 style="color: white;max-width: 95%;margin-left: auto; margin-right: auto; z-index: 5; position: relative;">Career Glow is provides a professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career. We strive to approach everyone individually to tailor for personal needs and long-lasting career fulfillment.  We specialize in:</h2>
+        <h2 class="aopromise">Career Glow provides a professional, confidential and safe space to take ownership of your future to make THAT move & grow an authentic and meaningful career. We implement a proven process & tailor for your personal needs to create a long-lasting career fulfillment.  We specialize in:</h2>
 
         <div class="specs">
                 <ul style="width: 90%;">
-                        <li style="font-size: 75%;">
-                                Career transition
+                         <li class="specsli">
+                                Career Transitions and Pivots
                         </li>
                 </ul>
         </div>
 
         <div class="specs">
                 <ul style="width: 90%;">
-                        <li style="font-size: 75%;">
-                                Job Satisfaction 
+                        <li class="specsli">
+                                Job Satisfaction and Fulfillment 
                         </li>
                 </ul>
         </div>
@@ -444,7 +454,7 @@ class socials extends HTMLElement {
     <img  class="socialsimage" src="https://i.postimg.cc/sDvsr0BX/in.png">
   </a>
 
-  <a class="socialslink" href="https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2F">
+  <a class="socialslink" href="https://www.facebook.com/profile.php?id=61575148085329#">
     <img  class="socialsimage" src="https://i.postimg.cc/x1mQkJ3V/fb.png">
   </a>
 

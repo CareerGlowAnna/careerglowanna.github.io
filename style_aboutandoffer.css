@@ -268,11 +268,22 @@
 /*PHONE SCREEN OVERRIDES*/
 @media only screen and (max-width: 1000px) {
     :root{
-        --offersecheight: 200px;
+        --osffersecheight: 200px;
         --offertextheight: 150%;
         --offer_text_width: 600px;
         --offer_gradient_extent: 50%;
     }
+}
+
+.aopromise{
+    color: white;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 5;
+    position: relative;
+    background-color: var(--color_blue_transparent);
+    border-radius:20px;
 }
 
 
@@ -287,13 +298,29 @@
     margin-right: auto;
 }
 
+.specsli{
+    font-size:75%;
+}
+
 /*PHONE SCREEN OVERRIDES*/
 @media only screen and (max-width: 1000px) {
 
     .aboutoffergrid{
         display: grid; 
         grid-template-columns: 1fr;
+        
     }
 
+    .aopromise{
+        font-size: smaller;
+    }
+
+    .specs{
+        font-size:150%;
+    }
+
+    .specsli{
+        font-size:125%;
+    }
 
 }
