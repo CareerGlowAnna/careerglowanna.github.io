@@ -79,8 +79,7 @@ class landing extends HTMLElement {
 
 <br><br><br>
 
-<button class="button1" type="button" onclick="location.href = 'contact.html';">Book your FREE introductory call today</button>
-        `
+<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a FREE consultation</button>`
     }
 }
 customElements.define('elem-landing', landing)
