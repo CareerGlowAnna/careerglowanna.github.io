@@ -160,9 +160,9 @@ class offer extends HTMLElement {
                 <div class="offer_text_right">4.Identify your skills gap, build your confidence and tame your inner critic</div>
         </div>
 
-        <div class="offersection_left">
+        <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
-                <div class="offergradient_left"></div>
+                <div class="offergradient_right"></div>
                 <div class="offer_text_left">5.Receive job search, interview, CV and networking support</div>
         </div>
 
@@ -371,13 +371,13 @@ class aboutandoffer extends HTMLElement {
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/vmzZsYB5/pexels-cottonbro-5989943.jpg">
-                <div class="offergradient_left"></div>
+                <div class="offergradient_right"></div>
                 <div class="offer_text_left">6.Optimise your CV, Cover Letter and LinkedIn profile</div>
         </div>
 
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/g2sCcnVc/pexels-fauxels-3184465.jpg">
-                <div class="offergradient_right"></div>
+                <div class="offergradient_left"></div>
                 <div class="offer_text_right">7.Interview preparation and tips </div>
         </div>
 
