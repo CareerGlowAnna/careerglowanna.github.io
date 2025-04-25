@@ -203,7 +203,7 @@ ul{
 }
 li{
    width: fit-content;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     transition: 1s;
     color: var(--color_blue);
 }
