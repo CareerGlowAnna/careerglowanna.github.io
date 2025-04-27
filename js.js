@@ -4,30 +4,30 @@
 class specialheader extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
-<div class="specialheader" id="specialheader">
-  <img class="headerimage" src="https://i.postimg.cc/Xv4cYMBK/ANNA-C-CAREER-GLOW-Transparent-2.png" onclick="gotohome()"></img>
-  <div class="topcontactdet"><contact-det></contact-det></div>
-  
-  <!-- 
+<div class="specialheader" id="specialheader" style="position: relative;">
+        <img class="headerimage" src="https://i.postimg.cc/Xv4cYMBK/ANNA-C-CAREER-GLOW-Transparent-2.png" onclick="gotohome()"></img>
+        <button class="button_white" style="position: absolute; right: 20px; bottom: 20px; " onclick="document.location='contact.html'">Contact</button>
+        <!--<div class="topcontactdet"><contact-det></contact-det></div>
+        -->
 
-  <div id="hamburger" class="hamburger" onclick="openhamburger()">
-          <img src="https://i.postimg.cc/hjFzHZbD/careerglow-hamburger.png"></img>
-  </div>
-
-
-  
-  <div id="topliniks" class="toplinks">
+        <!-- 
       
-      <a href="Templateschecker.html" >Template checker</a>
-      <a href="contact.html" >Contact</a>
-
-  -->
-
+        <div id="hamburger" class="hamburger" onclick="openhamburger()">
+                <img src="https://i.postimg.cc/hjFzHZbD/careerglow-hamburger.png"></img>
+        </div>
       
-  </div>
-</div>
-
-
+      
+        
+        <div id="topliniks" class="toplinks">
+            
+            <a href="Templateschecker.html" >Template checker</a>
+            <a href="contact.html" >Contact</a>
+      
+        -->
+      
+            
+        </div>
+      </div>
         `
         }
 }
@@ -89,38 +89,54 @@ class about extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
 <link href="style_about.css" rel="stylesheet">
+<link href="style_aboutandoffer.css" rel="stylesheet">
 <div style="background-image: linear-gradient(to right,#65a0af,#87afb9,#65a0af);border-radius: 50px;margin: 20px;max-width: 1200px;margin-left: auto;margin-right: auto;">
+        
+
+<div class="aboutcontainer">
         
 
         <h1 class="aboutabout">ABOUT</h1>
 
+        <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
+        class="aboutgridimage">
 
         <div class="aboutgrid">
 
                 <h1 class="aboutgridsloth1_1" >
-                Meet Anna, a Professional Career Change Coach at Career Glow.</h1>
+                Meet Anna, Professional Career Change Coach</h1>
 
-                <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
-                class="aboutgridimage">
+                
 
                 <h3 class="aboutgridsloth2_1" >
-                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she uses in her coaching practice, also taking from her background experience of coaching, operations, and development.
+                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she now uses in her coaching practice to help people in their career transitions.
                 </h2>
                  
         </div>
 
-        <h1 style="color: white;max-width: 900px;margin-left: auto;margin-right: auto; z-index: 5; position: relative;">Coaching at Career Glow is a proven professional, confidential and safe space to take ownership of your future and grow an authentic and meaningful career.  We specialize in:</h1>
+         <br><br>       
 
-        <div style="background-color: rgb(233, 232, 230);max-width: 900px;margin-left: auto;margin-right: auto;border-radius: 30px;margin-bottom: 20px;border-bottom: 20px;z-index: 1; position: relative;">
+        <h2 class="aopromise">Career Glow provides a professional, confidential and safe space to take ownership of your future to make THAT move & grow an authentic and meaningful career. We implement a proven process & tailor for your personal needs to create a long-lasting career fulfillment.  We specialize in:</h2>
+
+        <div class="specs">
                 <ul style="width: 90%;">
-                        <li>
-                                Career transitions, Mid-Career and Early-Career development and planning. We appreciate that each client is unique and comes with a different set of skills, background and experiences. We strive to approach everyone individually to tailor for personal needs and long-lasting results.  
+                         <li class="specsli">
+                                Career Transitions and Pivots
+                        </li>
+                </ul>
+        </div>
+
+        <div class="specs">
+                <ul style="width: 90%;">
+                        <li class="specsli">
+                                Job Satisfaction and Fulfillment 
                         </li>
                 </ul>
         </div>
         <br>
 
 </div>
+
         `
         }
 }
@@ -130,16 +146,17 @@ customElements.define('elem-about', about)
 class offer extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
+                <link href="style_aboutandoffer.css" rel="stylesheet">
 <link href="style_offer.css" rel="stylesheet">
 
 <div class="offermastercontainer">
 
-        <h1 class="offerh1">WHAT WE OFFER:</h1>
+        <!--<h1 class="offerh1">WHAT WE OFFER:</h1>-->
 
         <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/dVBwmRLj/1-coaching.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/NMfZrYx8/pexels-samerdaboul-2080544.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">1.Navigate your core values & strengths</div>
+                <div class="offer_text_left">1.Navigate your strengths and values</div>
         </div>
         
         <div class="offersection_right">
@@ -151,26 +168,34 @@ class offer extends HTMLElement {
         <div class="offersection_left">
                 <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
                 <div class="offergradient_left"></div>
-                <div class="offer_text_left">3.Clarify, Set and Plan for your Goals</div>
+                <div class="offer_text_left">3.Clarify your expectations and goals</div>
         </div>
 
         <div class="offersection_right">
                 <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_right">4.Identify your skills gap, build your confidence and tame your inner critic</div>
+                <div class="offer_text_right">4.Implement a proven strategy</div>
+        </div>
+
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/FzPSsbHg/pexels-ron-lach-9841329.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_left">5.Receive job search and application support</div>
         </div>
 
         <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/bJKhN3Bp/5-networking.jpg">
+                <img class="offerimage" src="https://i.postimg.cc/vmzZsYB5/pexels-cottonbro-5989943.jpg">
                 <div class="offergradient_right"></div>
-                <div class="offer_text_left">5.Receive job search, interview, CV and networking support</div>
+                <div class="offer_text_left">6.Optimise your CV, Cover Letter and LinkedIn profile</div>
         </div>
 
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/Jzp4Wwjk/6-finish.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">6.Interview Preparation support </div>
+        <div class="offersection_left">
+                <img class="offerimage" src="https://i.postimg.cc/g2sCcnVc/pexels-fauxels-3184465.jpg">
+                <div class="offergradient_left"></div>
+                <div class="offer_text_right">7.Interview preparation and tips </div>
         </div>
+
+        
 
 </div>
                 `
@@ -335,102 +360,8 @@ class aboutandoffer extends HTMLElement {
 
 <div class="aboutoffergrid" >
 
-    <div class="offermastercontainer">
-
-        <!--<h1 class="offerh1">WHAT WE OFFER:</h1>-->
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/NMfZrYx8/pexels-samerdaboul-2080544.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">1.Navigate your strengths and values</div>
-        </div>
-        
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/gcsVQjnc/2-webinars.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">2.Identify your transferable skills</div>
-        </div>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/VLyJ7cFs/3-goals.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">3.Clarify your expectations and goals</div>
-        </div>
-
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/1z3PWgFh/4-skill-gap.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_right">4.Implement a proven strategy</div>
-        </div>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/FzPSsbHg/pexels-ron-lach-9841329.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_left">5.Receive job search and application support</div>
-        </div>
-
-        <div class="offersection_right">
-                <img class="offerimage" src="https://i.postimg.cc/vmzZsYB5/pexels-cottonbro-5989943.jpg">
-                <div class="offergradient_right"></div>
-                <div class="offer_text_left">6.Optimise your CV, Cover Letter and LinkedIn profile</div>
-        </div>
-
-        <div class="offersection_left">
-                <img class="offerimage" src="https://i.postimg.cc/g2sCcnVc/pexels-fauxels-3184465.jpg">
-                <div class="offergradient_left"></div>
-                <div class="offer_text_right">7.Interview preparation and tips </div>
-        </div>
-
-        
-
-</div>
-
-<div class="aboutcontainer">
-        
-
-        <h1 class="aboutabout">ABOUT</h1>
-
-        <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
-        class="aboutgridimage">
-
-        <div class="aboutgrid">
-
-                <h1 class="aboutgridsloth1_1" >
-                Meet Anna, Professional Career Change Coach</h1>
-
-                
-
-                <h3 class="aboutgridsloth2_1" >
-                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she now uses in her coaching practice to help people in their career transitions.
-                </h2>
-                 
-        </div>
-
-         <br><br>       
-
-        <h2 class="aopromise">Career Glow provides a professional, confidential and safe space to take ownership of your future to make THAT move & grow an authentic and meaningful career. We implement a proven process & tailor for your personal needs to create a long-lasting career fulfillment.  We specialize in:</h2>
-
-        <div class="specs">
-                <ul style="width: 90%;">
-                         <li class="specsli">
-                                Career Transitions and Pivots
-                        </li>
-                </ul>
-        </div>
-
-        <div class="specs">
-                <ul style="width: 90%;">
-                        <li class="specsli">
-                                Job Satisfaction and Fulfillment 
-                        </li>
-                </ul>
-        </div>
-        <br>
-
-</div>
-
-
-
+        <elem-offer class="aooffer"></elem-offer>
+        <elem-about class="aoabout"></elem-about>
 </div>
     
                     `
@@ -552,4 +483,12 @@ function changefavicon() {
 
 }
 
-window.onload = animatefavicon();
+function scrollimage() {
+        var image = document.getElementById('welcomeimage')
+        image.style.opacity = 1-((window.scrollY-150)/(window.innerHeight*0.5));
+        console.log(window.scrollY,)
+}
+window.onscroll= scrollimage;
+
+
+window.onload = animatefavicon(); 

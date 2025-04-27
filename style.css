@@ -79,7 +79,13 @@ button:hover{
 
 
 
+.welcomeimage{
+    width:100% ;
+    max-height: 80vh;
+    position: fixed;
+    top: 135px;
 
+}
 
 
 
@@ -97,6 +103,8 @@ button:hover{
     url("https://i.postimg.cc/dVBwmRLj/1-coaching.jpg");
     background-size: cover;
     background-blend-mode: soft-light;
+
+    max-height: 135px;
     
 }
 
@@ -156,7 +164,7 @@ a:hover {
     max-width: 500px;
     display:inline-block;
     width: 50%;
-    padding-top: 1.5%;
+    padding-top: 0%;
     margin-left: 5%;
     margin-right: auto;
     scale: 1;
@@ -246,6 +254,11 @@ li:hover{
     transition: 0.3s;
 }
 
+.aboutandoffercontainer{
+    padding: 5px;
+     margin-top: 90vh;
+}
+
 
 
 /*ANIMATIONS*/
@@ -282,13 +295,27 @@ li:hover{
     }
 
     .headerimage {
-        max-width: 90vw;
-        width:90vw;
-        display:inline;
-        width: 100%;
+        width: 70vw;
+        max-width: 70vw;
         padding-top: 1.5%;
-        margin-left: 5vw;
-        margin-right: 5vw;
+        margin-left: 0;
+        margin-right: 30vw;
+    }
+
+    .welcomeimage{
+        width:100% ;
+        max-height: 80vh;
+        position: fixed;
+        top: 220px;
+    }
+
+    .aboutandoffercontainer{
+        padding: 5px;
+         margin-top:30vh;
+    }
+
+    .specialheader{
+        max-height: fit-content;
     }
 
     .toplinks{
