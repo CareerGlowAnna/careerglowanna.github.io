@@ -5,8 +5,8 @@ class specialheader extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
 <div class="specialheader" id="specialheader" style="position: relative;">
-        <img class="headerimage" src="https://i.postimg.cc/Xv4cYMBK/ANNA-C-CAREER-GLOW-Transparent-2.png" onclick="gotohome()"></img>
-        <button class="button_white" style="position: absolute; right: 20px; bottom: 20px; " onclick="document.location='contact.html'">Contact</button>
+        <img class="headerimage" src="https://i.postimg.cc/qvr6hBXR/ANNA-C-CAREER-GLOW-Transparent-7.png" onclick="gotohome()"></img>
+        <button class="button_white" style="position: absolute; right: 20px; bottom: 20px; " onclick="document.location='contact.html'">Book a free consultation</button>
         <!--<div class="topcontactdet"><contact-det></contact-det></div>
         -->
 
@@ -109,19 +109,30 @@ class about extends HTMLElement {
                 
 
                 <h3 class="aboutgridsloth2_1" >
-                 ​​Anna holds a Professional Diploma in Coaching and Mentoring, a Masters degree in Management Information and Managerial Accounting Systems and a Bachelor degree in Economics (Through Transformational Learning). She has developed her own MARC method that she now uses in her coaching practice to help people in their career transitions.
+                 ​Qualified in:
+                 <br>
+                •Professional Diploma in Coaching & Mentoring
+                 <br>
+                 •MSc in Management Information and Managerial Accounting Systems
+                 <br>
+                •BA in Economics (Through Transformational Learning). 
+                <br>
+                <br>
+                Anna knows firsthand what it takes to change careers. She has shifted careers 3 times and helped dozens of clients do the same. She has developed her own framework that she now uses in her coaching practice to help ambitious people feel like themselves again.
                 </h2>
                  
         </div>
 
          <br><br>       
 
-        <h2 class="aopromise">Career Glow provides a professional, confidential and safe space to take ownership of your future to make THAT move & grow an authentic and meaningful career. We implement a proven process & tailor for your personal needs to create a long-lasting career fulfillment.  We specialize in:</h2>
+        <h2 class="aopromise"> Anna C. Career Glow provides a professional, confidential and safe space to take ownership of your future & make THAT move to grow an authentic and meaningful career. We apply our proven process & tailor it for your needs to create a long-lasting career fulfillment.  
+        <br>
+        We specialize in:</h2>
 
         <div class="specs">
                 <ul style="width: 90%;">
                          <li class="specsli">
-                                Career Transitions and Pivots
+                                Career Changes and Transitions
                         </li>
                 </ul>
         </div>
@@ -229,27 +240,32 @@ class services extends HTMLElement {
 -->
 
 <div class="servicescont_L" >
-        <h2>The Ultimate Career Glow Programme</h2>
-        <p>This first-rate all-inclusive programme for Career Change will be delivered over 3 months with:</p>
-        <p style="text-align: left;"> 6 value-packed 1:1 sessions with a qualified career coach specializing in career changes
-        <br> High-touch support at times of need outside of the sessions
-        <br> Additional resources and worksheets 
-        <br> Ongoing support until your ideal job is secured. </p>
-        <p> With this programme, You will learn how to:</p>
-        <ul class="ul_services_R" >
-                <li class="li_services">Navigate your values and strengths</li>
-                <li class="li_services">Identify your transferable skills</li>
-                <li class="li_services">Identify your non-negotiables and job expectations</li>
-                <li class="li_services">Identify and narrow down your jobs of interest</li>
-                <li class="li_services">Develop actionable steps needed for your career pivot</li>
-                <li class="li_services">Use different tactics and strategies for your job search</li>
-                <li class="li_services">Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
-                <li class="li_services">Navigate the interview process to your advantage and negotiate your salary</li>
+        <h2>The Ultimate Career Change Package</h2>
+        <p>This all-inclusive 3-month package for Career Changers will empower you to:</p>
+         <ul class="ul_services_R" >
+                <li class="li_services">•1 Navigate your values and strengths</li>
+                <li class="li_services">•2 Identify your transferable skills and build confidence</li>
+                <li class="li_services">•3 Identify your non-negotiables and job expectations</li>
+                <li class="li_services">•4 Identify and narrow down your jobs of interest</li>
+                <li class="li_services">•5 Develop actionable steps needed for your career pivot</li>
+                <li class="li_services">•6 Use different tactics and strategies for your job search</li>
+                <li class="li_services">•7 Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
+                <li class="li_services">•8 Navigate the interview process to your advantage and negotiate your salary</li>
         </ul>
-        <h3>Enquire below to learn more</h3>
-        <p> *Payment plans available</p>
+        <p style="text-align: left;"> It is delivered through:
+        <br>
+        • 6 value-packed 1:1 sessions with Anna, a qualified career coach specializing in helping mid-career professionals in their career changes
+        <br> • High-touch support at times of need outside of the sessions through WhatsApp/ Email
+        <br> • Additional resources and worksheets to provide you with best results possible
+        <br> • Ongoing email support until your ideal job is secured </p>
+      
+       <p> *Payment plans available</p>
+        <h3>Ready to finally make that move? 
+        <br>
+        Book a free consultation below to meet Anna and get started.</h3>
+        
 
-        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Enquire here</button>
+        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>
 </div>
 
 <!--
