@@ -416,6 +416,7 @@ function scrollto(elem) {
 
 
 
+
 //set variables for modal
 var modal = document.getElementById("modal")
 var modalimg = document.getElementById("modal-content")
