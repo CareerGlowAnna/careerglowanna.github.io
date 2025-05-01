@@ -80,7 +80,7 @@ class landing extends HTMLElement {
 
 <br><br><br>
 
-<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a FREE consultation</button>`
+<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>`
         }
 }
 customElements.define('elem-landing', landing)
@@ -221,7 +221,9 @@ class services extends HTMLElement {
                 this.innerHTML = `
 <link href="style_services.css" rel="stylesheet">
 
-<h1 style="color: var(--color_blue);">Our Offer:</h1>
+<h1 style="color: var(--color_blue);">So, how does that work? 
+<br>
+You don't need to take the plunge, you need to plan (strategically) and you can do just that with:</h1>
 
 <div class="grid_services" >
 
@@ -252,11 +254,12 @@ class services extends HTMLElement {
                 <li class="li_services">•7 Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
                 <li class="li_services">•8 Navigate the interview process to your advantage and negotiate your salary</li>
         </ul>
-        <p style="text-align: left;"> It is delivered through:
+        <p style="text-align: left;"> The delivery:
         <br>
-        • 6 value-packed 1:1 sessions with Anna, a qualified career coach specializing in helping mid-career professionals in their career changes
+        <br>
+        • 6 value-packed 1:1 sessions with Anna, a qualified coach, specializing in helping mid-career professionals in their career changes
         <br> • High-touch support at times of need outside of the sessions through WhatsApp/ Email
-        <br> • Additional resources and worksheets to provide you with best results possible
+        <br> • Additional resources and worksheets to provide you with quality results
         <br> • Ongoing email support until your ideal job is secured </p>
       
        <p> *Payment plans available</p>
@@ -319,7 +322,7 @@ class testimonials extends HTMLElement {
 <link href="style_testimonials.css" rel="stylesheet">
 <script defer src="js_testimonials.js"></script>
 
-        <h2 style="color: var(--color_blue);">Our Testimonials:</h2>
+        <h2 style="color: var(--color_blue); font-size: 300%;">Our Testimonials:</h2>
 
 <div class="slideshow-container">
 
