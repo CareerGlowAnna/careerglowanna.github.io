@@ -15,7 +15,8 @@ class specialheader extends HTMLElement {
         <div id="hamburger" class="hamburger" onclick="openhamburger()">
                 <img src="https://i.postimg.cc/hjFzHZbD/careerglow-hamburger.png"></img>
         </div>
-      
+       
+        
       
         
         <div id="topliniks" class="toplinks">
@@ -64,6 +65,7 @@ class landing extends HTMLElement {
 <br><br><br>
         <h1 class="inspiquote">Helping you make a Career Change to feel good, not only look good. 
          <br> Feel empowered with our proven process and support.</h1>
+         
 
 <br><br>
 
