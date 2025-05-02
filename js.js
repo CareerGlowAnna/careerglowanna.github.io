@@ -63,8 +63,10 @@ class landing extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
 <br><br><br>
-        <h1 class="inspiquote">Helping you make a Career Change to feel good, not only look good. 
-         <br> Feel empowered with our proven process and support.</h1>
+        <h1 class="inspiquote">We help you make a Career Change to feel good,
+        <br>
+         not only look good. 
+       </h1>
          
 
 <br><br>
@@ -223,7 +225,7 @@ class services extends HTMLElement {
                 this.innerHTML = `
 <link href="style_services.css" rel="stylesheet">
 
-<h1 style="color: var(--color_blue);">So, how does that work? 
+<h1 style="color: black;">So, how does that work? 
 <br>
 You don't need to take the plunge, you need to plan (strategically) and you can do just that with:</h1>
 
