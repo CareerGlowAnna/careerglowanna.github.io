@@ -227,7 +227,7 @@ class services extends HTMLElement {
 
 <h1 style="color: black;">So, how does that work? 
 <br>
-You don't need to take the plunge, you need to plan (strategically) and you can do just that with:</h1>
+You don't need to take the plunge, we support you to plan (strategically):</h1>
 
 <div class="grid_services" >
 
