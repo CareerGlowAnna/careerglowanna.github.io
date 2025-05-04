@@ -3,7 +3,7 @@
 
 
 .servicescont_R , .servicescont_L {
-    width: 1300px;
+    width: 1100px;
     height: fit-content;
     margin: 20px;
     padding: 25px;
@@ -13,7 +13,7 @@
     margin-right: auto;
     background-color: var(--color_blue);
     color: white;
-    font-size:150%;
+    font-size:110%;
 
     transition: 1s;
 
