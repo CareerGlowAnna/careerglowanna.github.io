@@ -6,7 +6,18 @@ class specialheader extends HTMLElement {
                 this.innerHTML = `
 <div class="specialheader" id="specialheader" style="position: relative;">
         <img class="headerimage" src="https://i.postimg.cc/qvr6hBXR/ANNA-C-CAREER-GLOW-Transparent-7.png" onclick="gotohome()"></img>
-        <button class="button_white" style="position: absolute; right: 20px; bottom: 20px; " onclick="document.location='contact.html'">Book a free consultation</button>
+
+        <button 
+        class="button_white button_top">
+        <a 
+        style="
+        background: none;
+        color: var(--color_blue);
+        "
+        href="https://calendly.com/careerglowcoachingwithanna/30min?month=2025-05" target="_blank">Book a free consultation</a>
+        </button>
+
+
         <!--<div class="topcontactdet"><contact-det></contact-det></div>
         -->
 
@@ -24,6 +35,9 @@ class specialheader extends HTMLElement {
             <a href="Templateschecker.html" >Template checker</a>
             <a href="contact.html" >Contact</a>
       
+
+
+
         -->
       
             
@@ -63,7 +77,7 @@ class landing extends HTMLElement {
         connectedCallback() {
                 this.innerHTML = `
 <br><br><br>
-        <h1 class="inspiquote">We help you make a Career Change to feel good,
+        <h1 class="inspiquote">We help you make a Career Change to <span style="color: var(--color_blue)">feel good</span>,
         <br>
          not only look good. 
        </h1>
@@ -84,7 +98,8 @@ class landing extends HTMLElement {
 
 <br><br><br>
 
-<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>`
+<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>
+`
         }
 }
 customElements.define('elem-landing', landing)
@@ -225,7 +240,7 @@ class services extends HTMLElement {
                 this.innerHTML = `
 <link href="style_services.css" rel="stylesheet">
 
-<h1 style="color: black;">So, how does that work? 
+<h1 style="color: var(--color_black);">So, how does that work? 
 <br>
 You don't need to take the plunge, we support you to plan (strategically):</h1>
 
@@ -420,6 +435,16 @@ class socials extends HTMLElement {
         }
 }
 customElements.define('elem-socials', socials)
+
+
+class fixedimage extends HTMLElement {
+        connectedCallback() {
+                this.innerHTML = `
+
+                    `
+        }
+}
+customElements.define('elem-fixedimage', fixedimage)
 
 
 //var serviceelems;

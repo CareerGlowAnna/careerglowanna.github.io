@@ -6,6 +6,8 @@
     --color_blue_blend:#8fc6d150;
     --color_blue_special:#66c0d6;
     --color_bg:#e6e6e6;
+    --color_black: #1e2227;
+
     --font_main:'tinos';
 }
 
@@ -149,13 +151,13 @@ a:hover {
 .specialfooter{
     display: block;
     background-color: var(--color_blue);
-    color: white;
+    color: rgb(255, 255, 255);
     margin-bottom: 0;
-    height: 200px;
+    height: 400px;
 
     background-image:
     url("https://i.postimg.cc/VLyJ7cFs/3-goals.jpg");
-    background-size: cover;
+    background-size:cover;
     background-blend-mode: soft-light;
 }
 
@@ -187,7 +189,7 @@ a:hover {
     font-size: small;
     display: inline-block;
     position: relative;
-    float: right;
+    float:right;
     padding-right: 20px;
 }
 
@@ -246,7 +248,7 @@ li:hover{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    color: black;
+    color: var(--color_black);
     transition: 1s;
 }
 .inspiquote:hover{
@@ -283,6 +285,11 @@ li:hover{
 
 }
 
+.button_top{
+    position: absolute;
+    right: 20px;
+    bottom: 20px
+}
 
 
 /*PHONE SCREEN OVERRIDES*/
@@ -306,7 +313,7 @@ li:hover{
         width:100% ;
         max-height: 80vh;
         position: fixed;
-        top: 220px;
+        top: 20vh;
     }
 
     .aboutandoffercontainer{
@@ -344,5 +351,11 @@ li:hover{
      .inspiquote{
         width: 95vw;
      }
+
+     .button_top{
+        position: relative;
+        right: 20px;
+        bottom: 20px
+    }
 
 }
