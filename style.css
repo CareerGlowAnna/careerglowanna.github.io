@@ -86,6 +86,7 @@ button:hover{
     max-height: 80vh;
     position: fixed;
     top: 135px;
+    pointer-events: none;
 
 }
 

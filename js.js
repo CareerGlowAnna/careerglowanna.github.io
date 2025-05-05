@@ -98,7 +98,7 @@ class landing extends HTMLElement {
 
 <br><br><br>
 
-<button class="button1" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>
+<button class="button1" type="button" onclick="location.href = 'https://calendly.com/careerglowcoachingwithanna/30min?month=2025-05';">Book a free consultation</button>
 `
         }
 }
@@ -287,7 +287,7 @@ You don't need to take the plunge, we support you to plan (strategically):</h1>
         Book a free consultation below to meet Anna and get started.</h3>
         
 
-        <button class="button_white" type="button" onclick="location.href = 'contact.html';">Book a free consultation</button>
+        <button class="button_white" type="button" onclick="location.href = 'https://calendly.com/careerglowcoachingwithanna/30min?month=2025-05';">Book a free consultation</button>
 </div>
 
 <!--
