@@ -512,7 +512,7 @@ function gotohome() {
 
 
 
-function animatefavicon() {
+/*function animatefavicon() {
         setInterval(changefavicon, 1500);
 };
 
@@ -530,7 +530,7 @@ function changefavicon() {
         else if (faviconIndex === 3) { favicon.href = "https://lh3.googleusercontent.com/pw/AP1GczOS-_FEz1XvtWgXI1w6TcvPSu8rgIiQ2ShC-4y52bDppCNJ_qh3ZCI5urYY6mwiPDRVS_PdSXKOmnONQopYWApSSRnHofiiRg0vJZ3mj5PyQwKA6pY=s16-p-k"; faviconIndex = 0 }
 
 
-}
+}*/
 
 function scrollimage() {
         var image = document.getElementById('welcomeimage')
@@ -540,4 +540,4 @@ function scrollimage() {
 window.onscroll= scrollimage;
 
 
-window.onload = animatefavicon(); 
+//window.onload = animatefavicon(); 
