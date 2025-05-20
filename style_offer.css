@@ -92,10 +92,10 @@
     z-index: 2;
     color: white;
     align-self: center;
-    justify-self: left;
+    justify-self: center;
     font-size: var(--offertextheight);
     max-width: var(--offer_text_width);
-    text-align: left;
+    text-align: center;
     padding-left: 15px;
 }
 
@@ -104,10 +104,10 @@
     z-index: 2;
     color: white;
     align-self: center;
-    justify-self: right;
+    justify-self: center;
     font-size:var(--offertextheight);
     max-width: var(--offer_text_width);
-    text-align: right;
+    text-align: center;
     padding-right: 15px;
 }
 

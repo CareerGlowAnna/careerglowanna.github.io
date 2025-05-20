@@ -117,7 +117,12 @@ class about extends HTMLElement {
 
         <h1 class="aboutabout">ABOUT</h1>
 
+        <!--
         <img src="https://i.postimg.cc/zXXtMnBf/IMG-2096-copy-1500.png" 
+        class="aboutgridimage">
+        -->
+
+        <img src="https://i.postimg.cc/bvqPtWLt/Untitled-Linked-In-Post.png" 
         class="aboutgridimage">
 
         <div class="aboutgrid">
