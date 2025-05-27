@@ -64,8 +64,10 @@
     transition: 0.3s;
     font-size: 150%;
     list-style-image: none;
+    list-style-type:none;
 }
 
+/*
 .ul_services_R:hover{
     transform: rotate(1deg);
     transition: 0.3s;
@@ -75,9 +77,12 @@
     transform: rotate(-1deg);
     transition: 0.3s;
 }
+    */
 
 .li_services{
     text-align: left;
+      background: url('https://i.postimg.cc/MpHtST6Q/783e9a09-bd7f-405b-9188-37050c4e5391-32.png') no-repeat center left;
+      padding-left: 40px;
 }
 
 

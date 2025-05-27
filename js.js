@@ -122,7 +122,7 @@ class about extends HTMLElement {
         class="aboutgridimage">
         -->
 
-        <img src="https://i.postimg.cc/bvqPtWLt/Untitled-Linked-In-Post.png" 
+        <img src="https://i.postimg.cc/CxbKQMjG/Untitled-Linked-In-Post-copy.png" 
         class="aboutgridimage">
 
         <div class="aboutgrid">
@@ -269,14 +269,14 @@ You don't need to take the plunge, we support you to plan (strategically):</h1>
         <h2>The Ultimate Career Change Package</h2>
         <p>This all-inclusive 3-month package for Career Changers will empower you to:</p>
          <ul class="ul_services_R" >
-                <li class="li_services">1.  Navigate your values and strengths</li>
-                <li class="li_services">2.  Identify your transferable skills and build confidence</li>
-                <li class="li_services">3.  Identify your non-negotiables and job expectations</li>
-                <li class="li_services">4.  Identify and narrow down your jobs of interest</li>
-                <li class="li_services">5.  Develop actionable steps needed for your career pivot</li>
-                <li class="li_services">6.  Use different tactics and strategies for your job search</li>
-                <li class="li_services">7.  Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
-                <li class="li_services">8.  Navigate the interview process to your advantage and negotiate your salary</li>
+                <li class="li_services">   Navigate your values and strengths</li>
+                <li class="li_services">  Identify your transferable skills and build confidence</li>
+                <li class="li_services">  Identify your non-negotiables and job expectations</li>
+                <li class="li_services">  Identify and narrow down your jobs of interest</li>
+                <li class="li_services">  Develop actionable steps needed for your career pivot</li>
+                <li class="li_services">  Use different tactics and strategies for your job search</li>
+                <li class="li_services">  Position yourself as the right candidate with industry-ready CV, converting cover letter and seamless social media presence</li>
+                <li class="li_services">  Navigate the interview process to your advantage and negotiate your salary</li>
         </ul>
         <p style="text-align: left;"> The delivery:
         <br>
