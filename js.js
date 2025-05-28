@@ -128,12 +128,14 @@ class about extends HTMLElement {
         <div class="aboutgrid">
 
                 <h1 class="aboutgridsloth1_1" >
-                Meet Anna, Professional Career Change Coach</h1>
+                Meet Anna Cieslowska, 
+                <br>Professional Career Coach</h1>
 
                 
 
                 <h3 class="aboutgridsloth2_1" >
-                 ​Qualified in:
+                 Career change specialist qualified in:
+                 <br>
                  <br>
                 •Professional Diploma in Coaching & Mentoring
                  <br>
@@ -142,7 +144,7 @@ class about extends HTMLElement {
                 •BA in Economics (Through Transformational Learning). 
                 <br>
                 <br>
-                Anna knows firsthand what it takes to change careers. She has shifted careers 3 times and helped dozens of clients do the same. She has developed her own framework that she now uses in her coaching practice to help ambitious people feel like themselves again.
+                Anna has developed her own framework to guide ambitious mid-career professionals in their career change. She knows firsthand what it takes, as she has shifted careers 3 times and has successfully helped dozens of clients do the same.
                 </h2>
                  
         </div>
